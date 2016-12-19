@@ -7,7 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A147B49E1E05277F006B65E1 /* QZAttactionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A147B49D1E05277F006B65E1 /* QZAttactionButton.m */; };
+		A15D08921E07FD89005BA458 /* QZTravelsInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D08911E07FD89005BA458 /* QZTravelsInformation.m */; };
+		A15D08BF1E080F61005BA458 /* QZAttactionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D089E1E080F61005BA458 /* QZAttactionButton.m */; };
+		A15D08C01E080F61005BA458 /* QZAttactionChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D08A01E080F61005BA458 /* QZAttactionChooseView.m */; };
+		A15D08C11E080F61005BA458 /* QZAttactionChooseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15D08A11E080F61005BA458 /* QZAttactionChooseView.xib */; };
+		A15D08C21E080F61005BA458 /* QZAttactionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D08A31E080F61005BA458 /* QZAttactionView.m */; };
+		A15D08C31E080F61005BA458 /* HomeSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15D08A51E080F61005BA458 /* HomeSectionHeader.xib */; };
+		A15D08C41E080F61005BA458 /* QZHomeSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D08A71E080F61005BA458 /* QZHomeSectionHeader.m */; };
+		A15D08C51E080F61005BA458 /* QZGuardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D08AA1E080F61005BA458 /* QZGuardCell.m */; };
+		A15D08C61E080F61005BA458 /* QZGuardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15D08AB1E080F61005BA458 /* QZGuardCell.xib */; };
+		A15D08C71E080F61005BA458 /* QZLikeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D08AE1E080F61005BA458 /* QZLikeCell.m */; };
+		A15D08C81E080F61005BA458 /* QZLikeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15D08AF1E080F61005BA458 /* QZLikeCell.xib */; };
+		A15D08C91E080F61005BA458 /* QZHomeFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D08B31E080F61005BA458 /* QZHomeFunctionView.m */; };
+		A15D08CA1E080F61005BA458 /* QZHomeFunctionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15D08B41E080F61005BA458 /* QZHomeFunctionView.xib */; };
+		A15D08CB1E080F61005BA458 /* QZHomeIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D08B71E080F61005BA458 /* QZHomeIconView.m */; };
+		A15D08CC1E080F61005BA458 /* QZHomeTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D08B91E080F61005BA458 /* QZHomeTopView.m */; };
+		A15D08CD1E080F61005BA458 /* icons.plist in Resources */ = {isa = PBXBuildFile; fileRef = A15D08BA1E080F61005BA458 /* icons.plist */; };
+		A15D08CE1E080F61005BA458 /* QZInformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D08BD1E080F61005BA458 /* QZInformationView.m */; };
+		A15D08CF1E080F61005BA458 /* QZInformationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15D08BE1E080F61005BA458 /* QZInformationView.xib */; };
+		A15D08D21E080F83005BA458 /* QZHomeInformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D08D11E080F83005BA458 /* QZHomeInformationController.m */; };
 		A15D85BA1E06C1F0003B4C50 /* travels0.png in Resources */ = {isa = PBXBuildFile; fileRef = A15D85B71E06C1F0003B4C50 /* travels0.png */; };
 		A15D85BB1E06C1F0003B4C50 /* travels1.png in Resources */ = {isa = PBXBuildFile; fileRef = A15D85B81E06C1F0003B4C50 /* travels1.png */; };
 		A15D85BC1E06C1F0003B4C50 /* travels2.png in Resources */ = {isa = PBXBuildFile; fileRef = A15D85B91E06C1F0003B4C50 /* travels2.png */; };
@@ -40,8 +58,6 @@
 		A169DF521E003EE700969BB5 /* guanyuemiao.png in Resources */ = {isa = PBXBuildFile; fileRef = A169DF461E003EE700969BB5 /* guanyuemiao.png */; };
 		A169DF531E003EE700969BB5 /* minnan.png in Resources */ = {isa = PBXBuildFile; fileRef = A169DF471E003EE700969BB5 /* minnan.png */; };
 		A169DF541E003EE700969BB5 /* qingshanwan.png in Resources */ = {isa = PBXBuildFile; fileRef = A169DF481E003EE700969BB5 /* qingshanwan.png */; };
-		A173E3481DFEDC6600833792 /* QZHomeFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A173E3471DFEDC6600833792 /* QZHomeFunctionView.m */; };
-		A173E34A1DFEDC7100833792 /* QZHomeFunctionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A173E3491DFEDC7100833792 /* QZHomeFunctionView.xib */; };
 		A1C3E8241E04BEFA00D3B8B0 /* QZTravelsHotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C3E8221E04BEFA00D3B8B0 /* QZTravelsHotCell.m */; };
 		A1C3E8301E04D27300D3B8B0 /* QZTravelsHotCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C3E82F1E04D27300D3B8B0 /* QZTravelsHotCollectionViewController.m */; };
 		A1C3E8341E04D8CD00D3B8B0 /* QZAttractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C3E8321E04D8CD00D3B8B0 /* QZAttractionViewController.m */; };
@@ -78,15 +94,6 @@
 		A1CD051B1DFAACC5005606FB /* QZHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CD04531DFAACC4005606FB /* QZHomeViewController.m */; };
 		A1CD051C1DFAACC5005606FB /* QZHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CD04561DFAACC4005606FB /* QZHomeModel.m */; };
 		A1CD051D1DFAACC5005606FB /* QZInformationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CD04581DFAACC4005606FB /* QZInformationModel.m */; };
-		A1CD051E1DFAACC5005606FB /* HomeSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1CD045B1DFAACC4005606FB /* HomeSectionHeader.xib */; };
-		A1CD051F1DFAACC5005606FB /* QZHomeSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CD045D1DFAACC4005606FB /* QZHomeSectionHeader.m */; };
-		A1CD05201DFAACC5005606FB /* QZGuardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CD04601DFAACC4005606FB /* QZGuardCell.m */; };
-		A1CD05211DFAACC5005606FB /* QZGuardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1CD04611DFAACC4005606FB /* QZGuardCell.xib */; };
-		A1CD05221DFAACC5005606FB /* QZLikeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CD04641DFAACC4005606FB /* QZLikeCell.m */; };
-		A1CD05231DFAACC5005606FB /* QZLikeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1CD04651DFAACC4005606FB /* QZLikeCell.xib */; };
-		A1CD05241DFAACC5005606FB /* QZHomeIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CD04691DFAACC4005606FB /* QZHomeIconView.m */; };
-		A1CD05251DFAACC5005606FB /* QZHomeTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CD046B1DFAACC4005606FB /* QZHomeTopView.m */; };
-		A1CD05261DFAACC5005606FB /* icons.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1CD046C1DFAACC4005606FB /* icons.plist */; };
 		A1CD05271DFAACC5005606FB /* QZMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CD04711DFAACC4005606FB /* QZMainViewController.m */; };
 		A1CD05281DFAACC5005606FB /* QZGuideImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CD04741DFAACC4005606FB /* QZGuideImageViewController.m */; };
 		A1CD05291DFAACC5005606FB /* QZGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CD04761DFAACC4005606FB /* QZGuideViewController.m */; };
@@ -173,9 +180,6 @@
 		A1E7D7DC1E050CB10081820D /* qingyuanshan.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7D11E050CB10081820D /* qingyuanshan.png */; };
 		A1E7D7DD1E050CB10081820D /* 清源山评价.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7D21E050CB10081820D /* 清源山评价.png */; };
 		A1E7D7E01E0511340081820D /* QZAttactionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E7D7DF1E0511340081820D /* QZAttactionModel.m */; };
-		A1E7D7E41E0515350081820D /* QZAttactionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E7D7E31E0515350081820D /* QZAttactionView.m */; };
-		A1E7D7E81E0524370081820D /* QZAttactionChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E7D7E71E0524370081820D /* QZAttactionChooseView.m */; };
-		A1E7D7EA1E0524490081820D /* QZAttactionChooseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7E91E0524490081820D /* QZAttactionChooseView.xib */; };
 		F3648A021887B5AE00B7A02B /* libPods-qz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6609EA1700E2F4D49CB4C91F /* libPods-qz.a */; };
 /* End PBXBuildFile section */
 
@@ -199,8 +203,37 @@
 /* Begin PBXFileReference section */
 		497D9FC74C8EE37EF069E82D /* Pods-qz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qz.release.xcconfig"; path = "Pods/Target Support Files/Pods-qz/Pods-qz.release.xcconfig"; sourceTree = "<group>"; };
 		6609EA1700E2F4D49CB4C91F /* libPods-qz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A147B49C1E05277F006B65E1 /* QZAttactionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAttactionButton.h; sourceTree = "<group>"; };
-		A147B49D1E05277F006B65E1 /* QZAttactionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAttactionButton.m; sourceTree = "<group>"; };
+		A15D08901E07FD89005BA458 /* QZTravelsInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZTravelsInformation.h; sourceTree = "<group>"; };
+		A15D08911E07FD89005BA458 /* QZTravelsInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZTravelsInformation.m; sourceTree = "<group>"; };
+		A15D089D1E080F61005BA458 /* QZAttactionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAttactionButton.h; sourceTree = "<group>"; };
+		A15D089E1E080F61005BA458 /* QZAttactionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAttactionButton.m; sourceTree = "<group>"; };
+		A15D089F1E080F61005BA458 /* QZAttactionChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAttactionChooseView.h; sourceTree = "<group>"; };
+		A15D08A01E080F61005BA458 /* QZAttactionChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAttactionChooseView.m; sourceTree = "<group>"; };
+		A15D08A11E080F61005BA458 /* QZAttactionChooseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZAttactionChooseView.xib; sourceTree = "<group>"; };
+		A15D08A21E080F61005BA458 /* QZAttactionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAttactionView.h; sourceTree = "<group>"; };
+		A15D08A31E080F61005BA458 /* QZAttactionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAttactionView.m; sourceTree = "<group>"; };
+		A15D08A51E080F61005BA458 /* HomeSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeSectionHeader.xib; sourceTree = "<group>"; };
+		A15D08A61E080F61005BA458 /* QZHomeSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZHomeSectionHeader.h; sourceTree = "<group>"; };
+		A15D08A71E080F61005BA458 /* QZHomeSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZHomeSectionHeader.m; sourceTree = "<group>"; };
+		A15D08A91E080F61005BA458 /* QZGuardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZGuardCell.h; sourceTree = "<group>"; };
+		A15D08AA1E080F61005BA458 /* QZGuardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZGuardCell.m; sourceTree = "<group>"; };
+		A15D08AB1E080F61005BA458 /* QZGuardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZGuardCell.xib; sourceTree = "<group>"; };
+		A15D08AD1E080F61005BA458 /* QZLikeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZLikeCell.h; sourceTree = "<group>"; };
+		A15D08AE1E080F61005BA458 /* QZLikeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZLikeCell.m; sourceTree = "<group>"; };
+		A15D08AF1E080F61005BA458 /* QZLikeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZLikeCell.xib; sourceTree = "<group>"; };
+		A15D08B21E080F61005BA458 /* QZHomeFunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZHomeFunctionView.h; sourceTree = "<group>"; };
+		A15D08B31E080F61005BA458 /* QZHomeFunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZHomeFunctionView.m; sourceTree = "<group>"; };
+		A15D08B41E080F61005BA458 /* QZHomeFunctionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZHomeFunctionView.xib; sourceTree = "<group>"; };
+		A15D08B61E080F61005BA458 /* QZHomeIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZHomeIconView.h; sourceTree = "<group>"; };
+		A15D08B71E080F61005BA458 /* QZHomeIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZHomeIconView.m; sourceTree = "<group>"; };
+		A15D08B81E080F61005BA458 /* QZHomeTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZHomeTopView.h; sourceTree = "<group>"; };
+		A15D08B91E080F61005BA458 /* QZHomeTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZHomeTopView.m; sourceTree = "<group>"; };
+		A15D08BA1E080F61005BA458 /* icons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = icons.plist; sourceTree = "<group>"; };
+		A15D08BC1E080F61005BA458 /* QZInformationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZInformationView.h; sourceTree = "<group>"; };
+		A15D08BD1E080F61005BA458 /* QZInformationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZInformationView.m; sourceTree = "<group>"; };
+		A15D08BE1E080F61005BA458 /* QZInformationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZInformationView.xib; sourceTree = "<group>"; };
+		A15D08D01E080F83005BA458 /* QZHomeInformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZHomeInformationController.h; sourceTree = "<group>"; };
+		A15D08D11E080F83005BA458 /* QZHomeInformationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZHomeInformationController.m; sourceTree = "<group>"; };
 		A15D85B71E06C1F0003B4C50 /* travels0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = travels0.png; sourceTree = "<group>"; };
 		A15D85B81E06C1F0003B4C50 /* travels1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = travels1.png; sourceTree = "<group>"; };
 		A15D85B91E06C1F0003B4C50 /* travels2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = travels2.png; sourceTree = "<group>"; };
@@ -237,9 +270,6 @@
 		A169DF461E003EE700969BB5 /* guanyuemiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guanyuemiao.png; sourceTree = "<group>"; };
 		A169DF471E003EE700969BB5 /* minnan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minnan.png; sourceTree = "<group>"; };
 		A169DF481E003EE700969BB5 /* qingshanwan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qingshanwan.png; sourceTree = "<group>"; };
-		A173E3461DFEDC6600833792 /* QZHomeFunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZHomeFunctionView.h; sourceTree = "<group>"; };
-		A173E3471DFEDC6600833792 /* QZHomeFunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZHomeFunctionView.m; sourceTree = "<group>"; };
-		A173E3491DFEDC7100833792 /* QZHomeFunctionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZHomeFunctionView.xib; sourceTree = "<group>"; };
 		A1C3E8211E04BEFA00D3B8B0 /* QZTravelsHotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZTravelsHotCell.h; sourceTree = "<group>"; };
 		A1C3E8221E04BEFA00D3B8B0 /* QZTravelsHotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZTravelsHotCell.m; sourceTree = "<group>"; };
 		A1C3E82E1E04D27300D3B8B0 /* QZTravelsHotCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZTravelsHotCollectionViewController.h; sourceTree = "<group>"; };
@@ -308,20 +338,6 @@
 		A1CD04561DFAACC4005606FB /* QZHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZHomeModel.m; sourceTree = "<group>"; };
 		A1CD04571DFAACC4005606FB /* QZInformationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZInformationModel.h; sourceTree = "<group>"; };
 		A1CD04581DFAACC4005606FB /* QZInformationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZInformationModel.m; sourceTree = "<group>"; };
-		A1CD045B1DFAACC4005606FB /* HomeSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeSectionHeader.xib; sourceTree = "<group>"; };
-		A1CD045C1DFAACC4005606FB /* QZHomeSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZHomeSectionHeader.h; sourceTree = "<group>"; };
-		A1CD045D1DFAACC4005606FB /* QZHomeSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZHomeSectionHeader.m; sourceTree = "<group>"; };
-		A1CD045F1DFAACC4005606FB /* QZGuardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZGuardCell.h; sourceTree = "<group>"; };
-		A1CD04601DFAACC4005606FB /* QZGuardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZGuardCell.m; sourceTree = "<group>"; };
-		A1CD04611DFAACC4005606FB /* QZGuardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZGuardCell.xib; sourceTree = "<group>"; };
-		A1CD04631DFAACC4005606FB /* QZLikeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZLikeCell.h; sourceTree = "<group>"; };
-		A1CD04641DFAACC4005606FB /* QZLikeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZLikeCell.m; sourceTree = "<group>"; };
-		A1CD04651DFAACC4005606FB /* QZLikeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZLikeCell.xib; sourceTree = "<group>"; };
-		A1CD04681DFAACC4005606FB /* QZHomeIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZHomeIconView.h; sourceTree = "<group>"; };
-		A1CD04691DFAACC4005606FB /* QZHomeIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZHomeIconView.m; sourceTree = "<group>"; };
-		A1CD046A1DFAACC4005606FB /* QZHomeTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZHomeTopView.h; sourceTree = "<group>"; };
-		A1CD046B1DFAACC4005606FB /* QZHomeTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZHomeTopView.m; sourceTree = "<group>"; };
-		A1CD046C1DFAACC4005606FB /* icons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = icons.plist; sourceTree = "<group>"; };
 		A1CD04701DFAACC4005606FB /* QZMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZMainViewController.h; sourceTree = "<group>"; };
 		A1CD04711DFAACC4005606FB /* QZMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZMainViewController.m; sourceTree = "<group>"; };
 		A1CD04731DFAACC4005606FB /* QZGuideImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZGuideImageViewController.h; sourceTree = "<group>"; };
@@ -463,11 +479,6 @@
 		A1E7D7D21E050CB10081820D /* 清源山评价.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清源山评价.png"; sourceTree = "<group>"; };
 		A1E7D7DE1E0511340081820D /* QZAttactionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAttactionModel.h; sourceTree = "<group>"; };
 		A1E7D7DF1E0511340081820D /* QZAttactionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAttactionModel.m; sourceTree = "<group>"; };
-		A1E7D7E21E0515350081820D /* QZAttactionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAttactionView.h; sourceTree = "<group>"; };
-		A1E7D7E31E0515350081820D /* QZAttactionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAttactionView.m; sourceTree = "<group>"; };
-		A1E7D7E61E0524370081820D /* QZAttactionChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAttactionChooseView.h; sourceTree = "<group>"; };
-		A1E7D7E71E0524370081820D /* QZAttactionChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAttactionChooseView.m; sourceTree = "<group>"; };
-		A1E7D7E91E0524490081820D /* QZAttactionChooseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZAttactionChooseView.xib; sourceTree = "<group>"; };
 		CD2B65CE238008A85A07F808 /* Pods-qz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qz/Pods-qz.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -516,6 +527,112 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A15D089A1E080F61005BA458 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A15D089B1E080F61005BA458 /* AttactionStarView */,
+				A15D08A41E080F61005BA458 /* HomeCellHeader */,
+				A15D08A81E080F61005BA458 /* HomeGuardCell */,
+				A15D08AC1E080F61005BA458 /* HomeLikeCell */,
+				A15D08B01E080F61005BA458 /* HomeTopView */,
+				A15D08BA1E080F61005BA458 /* icons.plist */,
+				A15D08BB1E080F61005BA458 /* InformationHeaderView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A15D089B1E080F61005BA458 /* AttactionStarView */ = {
+			isa = PBXGroup;
+			children = (
+				A15D089C1E080F61005BA458 /* ChooseView */,
+				A15D08A21E080F61005BA458 /* QZAttactionView.h */,
+				A15D08A31E080F61005BA458 /* QZAttactionView.m */,
+			);
+			path = AttactionStarView;
+			sourceTree = "<group>";
+		};
+		A15D089C1E080F61005BA458 /* ChooseView */ = {
+			isa = PBXGroup;
+			children = (
+				A15D089D1E080F61005BA458 /* QZAttactionButton.h */,
+				A15D089E1E080F61005BA458 /* QZAttactionButton.m */,
+				A15D089F1E080F61005BA458 /* QZAttactionChooseView.h */,
+				A15D08A01E080F61005BA458 /* QZAttactionChooseView.m */,
+				A15D08A11E080F61005BA458 /* QZAttactionChooseView.xib */,
+			);
+			path = ChooseView;
+			sourceTree = "<group>";
+		};
+		A15D08A41E080F61005BA458 /* HomeCellHeader */ = {
+			isa = PBXGroup;
+			children = (
+				A15D08A51E080F61005BA458 /* HomeSectionHeader.xib */,
+				A15D08A61E080F61005BA458 /* QZHomeSectionHeader.h */,
+				A15D08A71E080F61005BA458 /* QZHomeSectionHeader.m */,
+			);
+			path = HomeCellHeader;
+			sourceTree = "<group>";
+		};
+		A15D08A81E080F61005BA458 /* HomeGuardCell */ = {
+			isa = PBXGroup;
+			children = (
+				A15D08A91E080F61005BA458 /* QZGuardCell.h */,
+				A15D08AA1E080F61005BA458 /* QZGuardCell.m */,
+				A15D08AB1E080F61005BA458 /* QZGuardCell.xib */,
+			);
+			path = HomeGuardCell;
+			sourceTree = "<group>";
+		};
+		A15D08AC1E080F61005BA458 /* HomeLikeCell */ = {
+			isa = PBXGroup;
+			children = (
+				A15D08AD1E080F61005BA458 /* QZLikeCell.h */,
+				A15D08AE1E080F61005BA458 /* QZLikeCell.m */,
+				A15D08AF1E080F61005BA458 /* QZLikeCell.xib */,
+			);
+			path = HomeLikeCell;
+			sourceTree = "<group>";
+		};
+		A15D08B01E080F61005BA458 /* HomeTopView */ = {
+			isa = PBXGroup;
+			children = (
+				A15D08B11E080F61005BA458 /* FunctionView */,
+				A15D08B51E080F61005BA458 /* IconView */,
+				A15D08B81E080F61005BA458 /* QZHomeTopView.h */,
+				A15D08B91E080F61005BA458 /* QZHomeTopView.m */,
+			);
+			path = HomeTopView;
+			sourceTree = "<group>";
+		};
+		A15D08B11E080F61005BA458 /* FunctionView */ = {
+			isa = PBXGroup;
+			children = (
+				A15D08B21E080F61005BA458 /* QZHomeFunctionView.h */,
+				A15D08B31E080F61005BA458 /* QZHomeFunctionView.m */,
+				A15D08B41E080F61005BA458 /* QZHomeFunctionView.xib */,
+			);
+			path = FunctionView;
+			sourceTree = "<group>";
+		};
+		A15D08B51E080F61005BA458 /* IconView */ = {
+			isa = PBXGroup;
+			children = (
+				A15D08B61E080F61005BA458 /* QZHomeIconView.h */,
+				A15D08B71E080F61005BA458 /* QZHomeIconView.m */,
+			);
+			path = IconView;
+			sourceTree = "<group>";
+		};
+		A15D08BB1E080F61005BA458 /* InformationHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				A15D08BC1E080F61005BA458 /* QZInformationView.h */,
+				A15D08BD1E080F61005BA458 /* QZInformationView.m */,
+				A15D08BE1E080F61005BA458 /* QZInformationView.xib */,
+			);
+			path = InformationHeaderView;
+			sourceTree = "<group>";
+		};
 		A15D85CB1E06D298003B4C50 /* EditView */ = {
 			isa = PBXGroup;
 			children = (
@@ -560,16 +677,6 @@
 				A169DF481E003EE700969BB5 /* qingshanwan.png */,
 			);
 			path = TravelPicture;
-			sourceTree = "<group>";
-		};
-		A173E3421DFEDC3500833792 /* FunctionView */ = {
-			isa = PBXGroup;
-			children = (
-				A173E3461DFEDC6600833792 /* QZHomeFunctionView.h */,
-				A173E3471DFEDC6600833792 /* QZHomeFunctionView.m */,
-				A173E3491DFEDC7100833792 /* QZHomeFunctionView.xib */,
-			);
-			path = FunctionView;
 			sourceTree = "<group>";
 		};
 		A1CD03D31DFAAC5F005606FB = {
@@ -843,9 +950,9 @@
 		A1CD044E1DFAACC4005606FB /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				A15D089A1E080F61005BA458 /* View */,
 				A1CD044F1DFAACC4005606FB /* Controller */,
 				A1CD04541DFAACC4005606FB /* Model */,
-				A1CD04591DFAACC4005606FB /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -856,6 +963,8 @@
 				A1CD04501DFAACC4005606FB /* HomeMainController */,
 				A1C3E8311E04D8CD00D3B8B0 /* QZAttractionViewController.h */,
 				A1C3E8321E04D8CD00D3B8B0 /* QZAttractionViewController.m */,
+				A15D08D01E080F83005BA458 /* QZHomeInformationController.h */,
+				A15D08D11E080F83005BA458 /* QZHomeInformationController.m */,
 				A1C3E83A1E04E53F00D3B8B0 /* QZAttactionCell.h */,
 				A1C3E83B1E04E53F00D3B8B0 /* QZAttactionCell.m */,
 				A1C3E83C1E04E53F00D3B8B0 /* QZAttactionCell.xib */,
@@ -885,69 +994,6 @@
 				A1E7D7DF1E0511340081820D /* QZAttactionModel.m */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		A1CD04591DFAACC4005606FB /* View */ = {
-			isa = PBXGroup;
-			children = (
-				A1E7D7E11E0515250081820D /* AttactionStarView */,
-				A1CD045A1DFAACC4005606FB /* HomeCellHeader */,
-				A1CD045E1DFAACC4005606FB /* HomeGuardCell */,
-				A1CD04621DFAACC4005606FB /* HomeLikeCell */,
-				A1CD04661DFAACC4005606FB /* HomeTopView */,
-				A1CD046C1DFAACC4005606FB /* icons.plist */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A1CD045A1DFAACC4005606FB /* HomeCellHeader */ = {
-			isa = PBXGroup;
-			children = (
-				A1CD045B1DFAACC4005606FB /* HomeSectionHeader.xib */,
-				A1CD045C1DFAACC4005606FB /* QZHomeSectionHeader.h */,
-				A1CD045D1DFAACC4005606FB /* QZHomeSectionHeader.m */,
-			);
-			path = HomeCellHeader;
-			sourceTree = "<group>";
-		};
-		A1CD045E1DFAACC4005606FB /* HomeGuardCell */ = {
-			isa = PBXGroup;
-			children = (
-				A1CD045F1DFAACC4005606FB /* QZGuardCell.h */,
-				A1CD04601DFAACC4005606FB /* QZGuardCell.m */,
-				A1CD04611DFAACC4005606FB /* QZGuardCell.xib */,
-			);
-			path = HomeGuardCell;
-			sourceTree = "<group>";
-		};
-		A1CD04621DFAACC4005606FB /* HomeLikeCell */ = {
-			isa = PBXGroup;
-			children = (
-				A1CD04631DFAACC4005606FB /* QZLikeCell.h */,
-				A1CD04641DFAACC4005606FB /* QZLikeCell.m */,
-				A1CD04651DFAACC4005606FB /* QZLikeCell.xib */,
-			);
-			path = HomeLikeCell;
-			sourceTree = "<group>";
-		};
-		A1CD04661DFAACC4005606FB /* HomeTopView */ = {
-			isa = PBXGroup;
-			children = (
-				A173E3421DFEDC3500833792 /* FunctionView */,
-				A1CD04671DFAACC4005606FB /* IconView */,
-				A1CD046A1DFAACC4005606FB /* QZHomeTopView.h */,
-				A1CD046B1DFAACC4005606FB /* QZHomeTopView.m */,
-			);
-			path = HomeTopView;
-			sourceTree = "<group>";
-		};
-		A1CD04671DFAACC4005606FB /* IconView */ = {
-			isa = PBXGroup;
-			children = (
-				A1CD04681DFAACC4005606FB /* QZHomeIconView.h */,
-				A1CD04691DFAACC4005606FB /* QZHomeIconView.m */,
-			);
-			path = IconView;
 			sourceTree = "<group>";
 		};
 		A1CD046D1DFAACC4005606FB /* Main */ = {
@@ -1351,6 +1397,8 @@
 		A1CD04F81DFAACC5005606FB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A15D08901E07FD89005BA458 /* QZTravelsInformation.h */,
+				A15D08911E07FD89005BA458 /* QZTravelsInformation.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1456,28 +1504,6 @@
 				A1E7D7D21E050CB10081820D /* 清源山评价.png */,
 			);
 			path = AttactionPicture;
-			sourceTree = "<group>";
-		};
-		A1E7D7E11E0515250081820D /* AttactionStarView */ = {
-			isa = PBXGroup;
-			children = (
-				A1E7D7E51E0524220081820D /* ChooseView */,
-				A1E7D7E21E0515350081820D /* QZAttactionView.h */,
-				A1E7D7E31E0515350081820D /* QZAttactionView.m */,
-			);
-			path = AttactionStarView;
-			sourceTree = "<group>";
-		};
-		A1E7D7E51E0524220081820D /* ChooseView */ = {
-			isa = PBXGroup;
-			children = (
-				A147B49C1E05277F006B65E1 /* QZAttactionButton.h */,
-				A147B49D1E05277F006B65E1 /* QZAttactionButton.m */,
-				A1E7D7E61E0524370081820D /* QZAttactionChooseView.h */,
-				A1E7D7E71E0524370081820D /* QZAttactionChooseView.m */,
-				A1E7D7E91E0524490081820D /* QZAttactionChooseView.xib */,
-			);
-			path = ChooseView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1602,14 +1628,15 @@
 				A1E7D7D81E050CB10081820D /* kaiyuansi.png in Resources */,
 				A15D85BC1E06C1F0003B4C50 /* travels2.png in Resources */,
 				A15D85D01E06D2BB003B4C50 /* QZTravelsEditView.xib in Resources */,
+				A15D08CD1E080F61005BA458 /* icons.plist in Resources */,
 				A1CD05141DFAACC5005606FB /* QZExploreCellHeader.xib in Resources */,
 				A1CD05841DFAAD0A005606FB /* LaunchScreen.storyboard in Resources */,
 				A1CD05111DFAACC5005606FB /* QZLoginViewController.xib in Resources */,
 				A169DF4A1E003EE700969BB5 /* liulian.png in Resources */,
+				A15D08CF1E080F61005BA458 /* QZInformationView.xib in Resources */,
 				A1CD052E1DFAACC5005606FB /* MineMenu.plist in Resources */,
 				A169DF3B1E003A5D00969BB5 /* QZFootCell.xib in Resources */,
 				A169DF511E003EE700969BB5 /* xihu.png in Resources */,
-				A173E34A1DFEDC7100833792 /* QZHomeFunctionView.xib in Resources */,
 				A15D85C11E06C238003B4C50 /* dahaidenver.png in Resources */,
 				A1CD03EC1DFAAC5F005606FB /* Assets.xcassets in Resources */,
 				A169DF361E003A4E00969BB5 /* QZTravelsCell.xib in Resources */,
@@ -1617,19 +1644,18 @@
 				A1E7D7D51E050CB10081820D /* 景点详情清源山banner.png in Resources */,
 				A1E7D7DA1E050CB10081820D /* niumuling.png in Resources */,
 				A1C3E83E1E04E53F00D3B8B0 /* QZAttactionCell.xib in Resources */,
-				A1CD05231DFAACC5005606FB /* QZLikeCell.xib in Resources */,
-				A1CD05211DFAACC5005606FB /* QZGuardCell.xib in Resources */,
 				A1CD05151DFAACC5005606FB /* ExploreIcons.plist in Resources */,
 				A1CD05761DFAACD5005606FB /* liukongjing.png in Resources */,
 				A15D85BA1E06C1F0003B4C50 /* travels0.png in Resources */,
+				A15D08C61E080F61005BA458 /* QZGuardCell.xib in Resources */,
 				A1CD052D1DFAACC5005606FB /* QZEditViewController.storyboard in Resources */,
 				A1E7D7D41E050CB10081820D /* tonghuaiguanyuemiao.png in Resources */,
 				A1CD05981DFAFE74005606FB /* home3.png in Resources */,
 				A169DF521E003EE700969BB5 /* guanyuemiao.png in Resources */,
-				A1CD05261DFAACC5005606FB /* icons.plist in Resources */,
 				A1CD055B1DFAACC5005606FB /* QZTravelsHeader.xib in Resources */,
 				A15D85C21E06C238003B4C50 /* fukanquanzhou.png in Resources */,
 				A1CD05971DFAFE74005606FB /* home2.png in Resources */,
+				A15D08C11E080F61005BA458 /* QZAttactionChooseView.xib in Resources */,
 				A1CD05771DFAACD5005606FB /* fengqiuhuang.png in Resources */,
 				A169DF541E003EE700969BB5 /* qingshanwan.png in Resources */,
 				A169DF4D1E003EE700969BB5 /* tumenshan.png in Resources */,
@@ -1645,6 +1671,7 @@
 				A1E7D7D91E050CB10081820D /* luoyangqiao.png in Resources */,
 				A15D85C01E06C238003B4C50 /* citonghuakai.png in Resources */,
 				A1CD05961DFAFE74005606FB /* home1.png in Resources */,
+				A15D08C31E080F61005BA458 /* HomeSectionHeader.xib in Resources */,
 				A169DF271E002BE000969BB5 /* huoyanshan.png in Resources */,
 				A1CD05991DFAFE74005606FB /* home4.png in Resources */,
 				A1E7D7DC1E050CB10081820D /* qingyuanshan.png in Resources */,
@@ -1654,8 +1681,6 @@
 				A1CD05891DFAB02D005606FB /* special0@2x.png in Resources */,
 				A1CD057A1DFAACD5005606FB /* lingshow.png in Resources */,
 				A15D85C71E06C70E003B4C50 /* wusong.png in Resources */,
-				A1CD051E1DFAACC5005606FB /* HomeSectionHeader.xib in Resources */,
-				A1E7D7EA1E0524490081820D /* QZAttactionChooseView.xib in Resources */,
 				A15D85BB1E06C1F0003B4C50 /* travels1.png in Resources */,
 				A169DF4F1E003EE700969BB5 /* licheng.png in Resources */,
 				A169DF491E003EE700969BB5 /* meishi.png in Resources */,
@@ -1663,6 +1688,8 @@
 				A1E7D7DD1E050CB10081820D /* 清源山评价.png in Resources */,
 				A169DF2E1E00334300969BB5 /* Travels.plist in Resources */,
 				A15D85C81E06C70E003B4C50 /* dongxita.png in Resources */,
+				A15D08C81E080F61005BA458 /* QZLikeCell.xib in Resources */,
+				A15D08CA1E080F61005BA458 /* QZHomeFunctionView.xib in Resources */,
 				A1CD058A1DFAB02D005606FB /* special1@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1736,14 +1763,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1E7D7E81E0524370081820D /* QZAttactionChooseView.m in Sources */,
 				A1CD05511DFAACC5005606FB /* QZHUDManager.m in Sources */,
-				A1E7D7E41E0515350081820D /* QZAttactionView.m in Sources */,
+				A15D08C21E080F61005BA458 /* QZAttactionView.m in Sources */,
 				A1CD050E1DFAACC5005606FB /* QZBaseView.m in Sources */,
 				A1CD05281DFAACC5005606FB /* QZGuideImageViewController.m in Sources */,
 				A1CD05411DFAACC5005606FB /* UIColor+SEEQuick.m in Sources */,
 				A1CD052C1DFAACC5005606FB /* QZEditViewController.m in Sources */,
 				A1CD05531DFAACC5005606FB /* QZQQUser.m in Sources */,
+				A15D08CE1E080F61005BA458 /* QZInformationView.m in Sources */,
 				A1CD05491DFAACC5005606FB /* UIVisualEffectView+SEEQuick.m in Sources */,
 				A1CD05171DFAACC5005606FB /* QZExploreHeaderFootView.m in Sources */,
 				A1CD05361DFAACC5005606FB /* SEEAnimator.m in Sources */,
@@ -1754,27 +1781,29 @@
 				A1CD05461DFAACC5005606FB /* UIScrollView+SEEQuick.m in Sources */,
 				A1CD05371DFAACC5005606FB /* SEEHTTPManager.m in Sources */,
 				A1CD05451DFAACC5005606FB /* UIPageControl+SEEQuick.m in Sources */,
-				A173E3481DFEDC6600833792 /* QZHomeFunctionView.m in Sources */,
+				A15D08C51E080F61005BA458 /* QZGuardCell.m in Sources */,
 				A169DF311E00376600969BB5 /* QZTravelsHeader.m in Sources */,
-				A1CD05241DFAACC5005606FB /* QZHomeIconView.m in Sources */,
 				A1CD054D1DFAACC5005606FB /* QZDateManager.m in Sources */,
 				A1CD05381DFAACC5005606FB /* SEEPullDownRefreshControl.m in Sources */,
 				A1CD05341DFAACC5005606FB /* LXDScanCodeController.m in Sources */,
 				A1C3E83D1E04E53F00D3B8B0 /* QZAttactionCell.m in Sources */,
 				A1CD05821DFAACFB005606FB /* AppDelegate.m in Sources */,
-				A1CD05221DFAACC5005606FB /* QZLikeCell.m in Sources */,
+				A15D08C71E080F61005BA458 /* QZLikeCell.m in Sources */,
+				A15D08CB1E080F61005BA458 /* QZHomeIconView.m in Sources */,
 				A1CD05041DFAACC5005606FB /* QZBaseCollectionViewController.m in Sources */,
 				A1C3E8241E04BEFA00D3B8B0 /* QZTravelsHotCell.m in Sources */,
 				A1CD052B1DFAACC5005606FB /* SEENewSpecialView.m in Sources */,
+				A15D08C01E080F61005BA458 /* QZAttactionChooseView.m in Sources */,
 				A1CD053C1DFAACC5005606FB /* NSAttributedString+SEEQuick.m in Sources */,
 				A1CD05581DFAACC5005606FB /* QZSinaUser.m in Sources */,
+				A15D08C91E080F61005BA458 /* QZHomeFunctionView.m in Sources */,
+				A15D08C41E080F61005BA458 /* QZHomeSectionHeader.m in Sources */,
 				A1CD051C1DFAACC5005606FB /* QZHomeModel.m in Sources */,
 				A1CD05181DFAACC5005606FB /* QZExploreIconView.m in Sources */,
 				A1CD05071DFAACC5005606FB /* SEEAdvertisementCell.m in Sources */,
 				A1CD05291DFAACC5005606FB /* QZGuideViewController.m in Sources */,
 				A1CD050B1DFAACC5005606FB /* QZBaseIconView.m in Sources */,
 				A1CD05471DFAACC5005606FB /* UITableView+SEEQuick.m in Sources */,
-				A1CD051F1DFAACC5005606FB /* QZHomeSectionHeader.m in Sources */,
 				A1CD05101DFAACC5005606FB /* QZLoginViewController.m in Sources */,
 				A1CD05331DFAACC5005606FB /* QZUserInfoView.m in Sources */,
 				A1CD05481DFAACC5005606FB /* UIViewController+SEEQuick.m in Sources */,
@@ -1782,7 +1811,6 @@
 				A1CD05351DFAACC5005606FB /* LXDScanView.m in Sources */,
 				A1CD05571DFAACC5005606FB /* QZUserManager.m in Sources */,
 				A1CD05421DFAACC5005606FB /* UIImage+SEEQuick.m in Sources */,
-				A1CD05201DFAACC5005606FB /* QZGuardCell.m in Sources */,
 				A1CD05061DFAACC5005606FB /* SEEAdvertisement.m in Sources */,
 				A1E7D7E01E0511340081820D /* QZAttactionModel.m in Sources */,
 				A1CD05091DFAACC5005606FB /* SEEAdvertisementView.m in Sources */,
@@ -1790,7 +1818,6 @@
 				A1CD05501DFAACC5005606FB /* QZWeChatHTTPManager.m in Sources */,
 				A1CD05121DFAACC5005606FB /* QZThiedLoginViewController.m in Sources */,
 				A1C3E8341E04D8CD00D3B8B0 /* QZAttractionViewController.m in Sources */,
-				A147B49E1E05277F006B65E1 /* QZAttactionButton.m in Sources */,
 				A1CD050C1DFAACC5005606FB /* QZBaseTopView.m in Sources */,
 				A1CD05131DFAACC5005606FB /* QZExploreViewController.m in Sources */,
 				A1CD055D1DFAACC5005606FB /* QZTravelsTopView.m in Sources */,
@@ -1800,7 +1827,6 @@
 				A1CD050F1DFAACC5005606FB /* QZBaseViewController.m in Sources */,
 				A1CD051B1DFAACC5005606FB /* QZHomeViewController.m in Sources */,
 				A1CD05311DFAACC5005606FB /* QZMenuCell.m in Sources */,
-				A1CD05251DFAACC5005606FB /* QZHomeTopView.m in Sources */,
 				A1CD055E1DFAACC5005606FB /* QZTravelsIconView.m in Sources */,
 				A1CD050A1DFAACC5005606FB /* QZBaseIconButton.m in Sources */,
 				A1CD051D1DFAACC5005606FB /* QZInformationModel.m in Sources */,
@@ -1815,9 +1841,13 @@
 				A1CD053E1DFAACC5005606FB /* UIButton+SEEQuick.m in Sources */,
 				A1CD05591DFAACC5005606FB /* QZSinaUserInfo.m in Sources */,
 				A1CD053F1DFAACC5005606FB /* UICollectionView+SEEQuick.m in Sources */,
+				A15D08BF1E080F61005BA458 /* QZAttactionButton.m in Sources */,
+				A15D08CC1E080F61005BA458 /* QZHomeTopView.m in Sources */,
 				A15D85CE1E06D2AC003B4C50 /* QZTravelsEditView.m in Sources */,
+				A15D08921E07FD89005BA458 /* QZTravelsInformation.m in Sources */,
 				A1CD053D1DFAACC5005606FB /* NSString+SEEQuick.m in Sources */,
 				A1C3E8301E04D27300D3B8B0 /* QZTravelsHotCollectionViewController.m in Sources */,
+				A15D08D21E080F83005BA458 /* QZHomeInformationController.m in Sources */,
 				A1CD05161DFAACC5005606FB /* QZExploreButton.m in Sources */,
 				A1CD05541DFAACC5005606FB /* QZQQUserInfo.m in Sources */,
 				A1CD05521DFAACC5005606FB /* QZSqliteManager.m in Sources */,

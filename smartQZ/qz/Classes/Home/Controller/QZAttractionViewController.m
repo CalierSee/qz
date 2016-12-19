@@ -10,6 +10,7 @@
 #import "QZAttactionCell.h"
 #import "QZAttactionModel.h"
 #import "QZAttactionChooseView.h"
+#import "QZHomeInformationController.h"
 static NSString * cellID = @"cell";
 
 @interface QZAttractionViewController ()
@@ -135,7 +136,9 @@ static NSString * cellID = @"cell";
 
 #pragma mark - UITableViewDelegete
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    QZHomeInformationController * vc = [[QZHomeInformationController alloc]init];
+    vc.attaction = _attactions[indexPath.row];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark - getter and setter 属性getter、setter
