@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="MEK-Lb-E1n" customClass="QZAttactionChooseView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="182"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AfS-fs-1ie" customClass="QZAttactionButton">
+                    <rect key="frame" x="0.0" y="94" width="375" height="28.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="价格最低">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" title="价格最低" image="choose_selected">
+                        <color key="titleColor" red="0.0" green="0.62745098039215685" blue="0.9137254901960784" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="sortButtonClick:" destination="MEK-Lb-E1n" eventType="touchUpInside" id="WMy-nx-uI0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Irm-OM-Xbr" customClass="QZAttactionButton">
+                    <rect key="frame" x="0.0" y="123.5" width="375" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="销量优先">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" title="销量优先" image="choose_selected">
+                        <color key="titleColor" red="0.0" green="0.62745098039215685" blue="0.9137254901960784" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="sortButtonClick:" destination="MEK-Lb-E1n" eventType="touchUpInside" id="mRj-ym-VWm"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kd9-Zv-kh3" customClass="QZAttactionButton">
+                    <rect key="frame" x="0.0" y="153.5" width="375" height="28.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="离我最近">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" title="离我最近" image="choose_selected">
+                        <color key="titleColor" red="0.0" green="0.62745098039215685" blue="0.9137254901960784" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="sortButtonClick:" destination="MEK-Lb-E1n" eventType="touchUpInside" id="7Mi-Zm-vh0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9n5-2r-TSZ" customClass="QZAttactionButton">
+                    <rect key="frame" x="0.0" y="64" width="375" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="推荐排序">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" title="推荐排序" image="choose_selected">
+                        <color key="titleColor" red="0.0" green="0.62745098039215685" blue="0.9137254901960784" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="sortButtonClick:" destination="MEK-Lb-E1n" eventType="touchUpInside" id="KJS-bn-KU2"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Irm-OM-Xbr" secondAttribute="trailing" id="0ZQ-Zu-mDh"/>
+                <constraint firstAttribute="trailing" secondItem="kd9-Zv-kh3" secondAttribute="trailing" id="0rF-RD-aJe"/>
+                <constraint firstItem="Irm-OM-Xbr" firstAttribute="leading" secondItem="MEK-Lb-E1n" secondAttribute="leading" id="D3y-MX-J5l"/>
+                <constraint firstItem="9n5-2r-TSZ" firstAttribute="top" secondItem="MEK-Lb-E1n" secondAttribute="top" constant="64" id="IjN-9P-THN"/>
+                <constraint firstAttribute="trailing" secondItem="AfS-fs-1ie" secondAttribute="trailing" id="RFw-9t-ewk"/>
+                <constraint firstAttribute="bottom" secondItem="kd9-Zv-kh3" secondAttribute="bottom" id="XEI-l8-kqm"/>
+                <constraint firstItem="Irm-OM-Xbr" firstAttribute="height" secondItem="9n5-2r-TSZ" secondAttribute="height" id="XHN-5j-FRm"/>
+                <constraint firstItem="kd9-Zv-kh3" firstAttribute="top" secondItem="Irm-OM-Xbr" secondAttribute="bottom" constant="1" id="Zn7-1d-laR"/>
+                <constraint firstItem="AfS-fs-1ie" firstAttribute="top" secondItem="9n5-2r-TSZ" secondAttribute="bottom" constant="1" id="ZqD-ss-QOB"/>
+                <constraint firstItem="AfS-fs-1ie" firstAttribute="leading" secondItem="MEK-Lb-E1n" secondAttribute="leading" id="aqs-GF-88E"/>
+                <constraint firstAttribute="trailing" secondItem="9n5-2r-TSZ" secondAttribute="trailing" id="bdH-KF-p1b"/>
+                <constraint firstItem="kd9-Zv-kh3" firstAttribute="height" secondItem="9n5-2r-TSZ" secondAttribute="height" id="fcA-b7-w0e"/>
+                <constraint firstItem="kd9-Zv-kh3" firstAttribute="leading" secondItem="MEK-Lb-E1n" secondAttribute="leading" id="ghr-1j-59X"/>
+                <constraint firstItem="9n5-2r-TSZ" firstAttribute="leading" secondItem="MEK-Lb-E1n" secondAttribute="leading" id="kOr-rV-uKA"/>
+                <constraint firstItem="AfS-fs-1ie" firstAttribute="height" secondItem="9n5-2r-TSZ" secondAttribute="height" id="wIL-9N-wZQ"/>
+                <constraint firstItem="Irm-OM-Xbr" firstAttribute="top" secondItem="AfS-fs-1ie" secondAttribute="bottom" constant="1" id="xh9-jy-CQ5"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="defaultButton" destination="9n5-2r-TSZ" id="RYd-zf-Lsi"/>
+            </connections>
+            <point key="canvasLocation" x="-97.5" y="-419"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="choose_selected" width="22" height="22"/>
+    </resources>
+</document>

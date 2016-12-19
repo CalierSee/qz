@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="QZLikeCell">
+            <rect key="frame" x="0.0" y="0.0" width="386" height="206"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="386" height="206"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yuanhe1916.png" translatesAutoresizingMaskIntoConstraints="NO" id="S5L-Fm-3c6">
+                        <rect key="frame" x="0.0" y="0.0" width="386" height="206"/>
+                    </imageView>
+                    <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JOq-mH-2r4">
+                        <rect key="frame" x="164.5" y="102.5" width="57" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Bq6-uY-8ka"/>
+                        </constraints>
+                    </view>
+                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rii-Pd-iO2">
+                        <rect key="frame" x="142" y="103.5" width="102" height="22"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="泉州市鲤城区" image="location"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="泉州" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJ4-HM-giu">
+                        <rect key="frame" x="174.5" y="81.5" width="37" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="S5L-Fm-3c6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3Pi-tm-Ea9"/>
+                <constraint firstItem="Rii-Pd-iO2" firstAttribute="top" secondItem="JOq-mH-2r4" secondAttribute="bottom" id="3vh-Ek-OFn"/>
+                <constraint firstAttribute="bottom" secondItem="S5L-Fm-3c6" secondAttribute="bottom" id="Adv-zS-A29"/>
+                <constraint firstItem="JOq-mH-2r4" firstAttribute="top" secondItem="sJ4-HM-giu" secondAttribute="bottom" id="HBX-bX-wHy"/>
+                <constraint firstItem="JOq-mH-2r4" firstAttribute="centerY" secondItem="S5L-Fm-3c6" secondAttribute="centerY" id="Hho-ut-VIf"/>
+                <constraint firstAttribute="trailing" secondItem="S5L-Fm-3c6" secondAttribute="trailing" id="W6h-Z6-y4z"/>
+                <constraint firstItem="sJ4-HM-giu" firstAttribute="centerX" secondItem="JOq-mH-2r4" secondAttribute="centerX" id="aGo-y8-Jiw"/>
+                <constraint firstItem="JOq-mH-2r4" firstAttribute="width" secondItem="sJ4-HM-giu" secondAttribute="width" constant="20" id="bce-A1-uhV"/>
+                <constraint firstItem="S5L-Fm-3c6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="d5O-UD-deW"/>
+                <constraint firstItem="JOq-mH-2r4" firstAttribute="centerX" secondItem="S5L-Fm-3c6" secondAttribute="centerX" id="epx-RS-Kv5"/>
+                <constraint firstItem="Rii-Pd-iO2" firstAttribute="centerX" secondItem="JOq-mH-2r4" secondAttribute="centerX" id="t6p-br-crM"/>
+            </constraints>
+            <size key="customSize" width="386" height="206"/>
+            <connections>
+                <outlet property="background" destination="S5L-Fm-3c6" id="OkJ-GH-3TM"/>
+                <outlet property="local" destination="Rii-Pd-iO2" id="Vsj-Vk-J4V"/>
+                <outlet property="name" destination="sJ4-HM-giu" id="Y0U-eY-602"/>
+            </connections>
+            <point key="canvasLocation" x="47" y="74"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="location" width="22" height="22"/>
+        <image name="yuanhe1916.png" width="750" height="424"/>
+    </resources>
+</document>

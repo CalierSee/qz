@@ -1,0 +1,39 @@
+//
+//  qztourist.pch
+//  qztourist
+//
+//  Created by 景彦铭 on 2016/11/12.
+//  Copyright © 2016年 景彦铭. All rights reserved.
+//
+
+#ifndef qztourist_pch
+#define qztourist_pch
+
+#ifdef __OBJC__
+#import "NSArray+Log.h"
+#import "SEEQuickUI.h"
+#import "SEEQuickAdditional.h"
+#import "objc/runtime.h"
+#import "QZInfo.h"
+#import <UIImageView+WebCache.h>
+#import <Masonry.h>
+#import <YYModel.h>
+#import "QZBaseNavigationController.h"
+#import <POP.h>
+#define USERTABLE @"t_users"
+#define USERTABLEID @"user_id"
+
+
+#ifdef DEBUG
+
+#define NSLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define NSLog(...)
+
+#endif
+
+#endif
+
+#endif /* qztourist_pch */
