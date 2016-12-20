@@ -3,6 +3,12 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>ticket</key>
+		<array>
+			<string>您最晚要在当前08:00前下单，请尽早预定，一面耽误行程。</string>
+			<string>取票方式：请凭预定成功段兴至景区售票服务中心取票，门票仅供一次使用，请合理安排您的时间。\n改退须知：退票收取1元手续费，有效期内无条件改期。检票后十位该票已经使用，不退不换。</string>
+			<string>开放时间：07:00 - 18:00</string>
+		</array>
 		<key>common</key>
 		<string>425</string>
 		<key>old_price</key>

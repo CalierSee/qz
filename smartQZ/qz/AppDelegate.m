@@ -38,7 +38,6 @@
     
     //地图授权
     [AMapServices sharedServices].apiKey = GDAppKey;
-    
     return YES;
 }
 

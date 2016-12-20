@@ -20,7 +20,12 @@
 #import <YYModel.h>
 #import "QZBaseNavigationController.h"
 #import <POP.h>
-#import <MAMapKit/MAMapKit.h>
+
+//location
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <AMapSearchKit/AMapSearchKit.h>
+#import <AMapLocationKit/AMapLocationKit.h>
+
 #define USERTABLE @"t_users"
 #define USERTABLEID @"user_id"
 

@@ -7,11 +7,12 @@
 //
 
 #import "QZHomeInformationController.h"
+#import "QZInformationCell.h"
 #import "QZInformationView.h"
-@interface QZHomeInformationController ()
-@property(nonatomic,strong)UITableView * tableView;
+static NSString * headerCell = @"headerCell";
 
-@property(nonatomic,weak)QZInformationView *header;
+@interface QZHomeInformationController ()<UITableViewDelegate,UITableViewDataSource>
+@property(nonatomic,strong)UITableView * tableView;
 @end
 
 @implementation QZHomeInformationController
@@ -29,15 +30,30 @@
 #pragma mark - action 响应方法
 
 #pragma mark - delegate and datasource 代理和数据源协议
-
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 2;
+}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return section == 0 ? 1 : 0;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.section == 0) {
+        QZInformationCell * cell = [tableView dequeueReusableCellWithIdentifier:headerCell forIndexPath:indexPath];
+        [cell attraction:_attaction];
+        return cell;
+    }
+    return nil;
+}
 #pragma mark - getter and setter 属性getter、setter
 - (UITableView *)tableView {
     if (_tableView == nil) {
         _tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
-        QZInformationView * header = [[UINib nibWithNibName:@"QZInformationView" bundle:nil]instantiateWithOwner:nil options:nil].firstObject;
-        _tableView.tableHeaderView = header;
-        _header = header;
-        [_header attaction:_attaction];
+        [_tableView registerNib:[UINib nibWithNibName:@"QZInformationCell" bundle:nil] forCellReuseIdentifier:headerCell];
+        _tableView.rowHeight = UITableViewAutomaticDimension;
+        _tableView.estimatedRowHeight = 700;
+        _tableView.dataSource = self;
+        _tableView.delegate = self;
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     }
     return _tableView;
 }

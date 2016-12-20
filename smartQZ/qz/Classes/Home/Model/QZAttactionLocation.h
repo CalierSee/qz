@@ -10,7 +10,11 @@
 
 @interface QZAttactionLocation : NSObject
 
-@property(nonatomic,assign,readonly)double distance;
+- (void)weatherStringWithCity:(NSString *)city complete:(void(^)(NSString *))complete;
+
+- (void)distanceWithUserLocation:(CLLocation *)location complete:(void(^)(double distance))complete;
+
+- (instancetype)initWithGeoString:(NSString * )geo;
 
 
 @end

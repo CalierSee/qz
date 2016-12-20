@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "QZAttactionModel.h"
 @interface QZInformationView : UIView
+
 - (void)attaction:(QZAttactionModel *)attaction;
+
+
 @end

@@ -15,7 +15,7 @@ static NSString * cellID = @"cell";
 
 @interface QZAttractionViewController ()
 
-@property(nonatomic,strong)NSArray <QZAttactionModel *> * attactions;
+@property(nonatomic,strong)QZAttactionModel * attaction;
 
 @property(nonatomic,strong)QZAttactionChooseView *chooseView;
 
@@ -68,9 +68,7 @@ static NSString * cellID = @"cell";
 #pragma mark - custom methods 自定义方法
 
 - (void)loadPlistData {
-    NSArray * arr = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"Attaction" ofType:@"plist"]];
-    NSArray * dataArray = [NSArray yy_modelArrayWithClass:[QZAttactionModel class] json:arr];
-    _attactions = dataArray;
+    
     [self.tableView reloadData];
 }
 
@@ -109,7 +107,7 @@ static NSString * cellID = @"cell";
 }
 
 - (void)sortModeChoose:(QZAttactionChooseView *)sender {
-    _attactions = [QZAttactionModel sortWithMode:sender.sortMode data:_attactions];
+    [self.attaction sortWithMode:sender.sortMode];
     [self showChooseView:NO complete:^{
         [self.tableView reloadData];
         _chooseButton.selected = NO;
@@ -125,19 +123,19 @@ static NSString * cellID = @"cell";
 #pragma mark - delegate and datasource 代理和数据源协议
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return _attactions.count;
+    return self.attaction.attactions.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     QZAttactionCell * cell = [tableView dequeueReusableCellWithIdentifier: cellID forIndexPath:indexPath];
-    [cell showWithModel:_attactions[indexPath.row]];
+    [cell showWithModel:self.attaction.attactions[indexPath.row]];
     return cell;
 }
 
 #pragma mark - UITableViewDelegete
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     QZHomeInformationController * vc = [[QZHomeInformationController alloc]init];
-    vc.attaction = _attactions[indexPath.row];
+    vc.attaction = self.attaction.attactions[indexPath.row];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
@@ -156,9 +154,16 @@ static NSString * cellID = @"cell";
     if(_backgroundView == nil){
         _backgroundView = [[UIButton alloc]initWithFrame:[UIScreen mainScreen].bounds];
         _backgroundView.backgroundColor = [UIColor darkTextColor];
-        _backgroundView.alpha = 0.7;
+        _backgroundView.alpha = 0.5;
         [_backgroundView addTarget:self action:@selector(backgroundViewClick) forControlEvents:UIControlEventTouchUpInside];
     }
     return _backgroundView;
+}
+
+- (QZAttactionModel *)attaction {
+    if (_attaction == nil) {
+        _attaction = [[QZAttactionModel alloc]initWithFile:@"Attaction.plist"];
+    }
+    return _attaction;
 }
 @end
