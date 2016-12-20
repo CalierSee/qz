@@ -26,6 +26,7 @@
 		A15D08CE1E080F61005BA458 /* QZInformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D08BD1E080F61005BA458 /* QZInformationView.m */; };
 		A15D08CF1E080F61005BA458 /* QZInformationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15D08BE1E080F61005BA458 /* QZInformationView.xib */; };
 		A15D08D21E080F83005BA458 /* QZHomeInformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D08D11E080F83005BA458 /* QZHomeInformationController.m */; };
+		A15D08D51E08D809005BA458 /* QZAttactionLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D08D41E08D809005BA458 /* QZAttactionLocation.m */; };
 		A15D85BA1E06C1F0003B4C50 /* travels0.png in Resources */ = {isa = PBXBuildFile; fileRef = A15D85B71E06C1F0003B4C50 /* travels0.png */; };
 		A15D85BB1E06C1F0003B4C50 /* travels1.png in Resources */ = {isa = PBXBuildFile; fileRef = A15D85B81E06C1F0003B4C50 /* travels1.png */; };
 		A15D85BC1E06C1F0003B4C50 /* travels2.png in Resources */ = {isa = PBXBuildFile; fileRef = A15D85B91E06C1F0003B4C50 /* travels2.png */; };
@@ -170,9 +171,9 @@
 		A1CD05991DFAFE74005606FB /* home4.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CD05941DFAFE74005606FB /* home4.png */; };
 		A1E7D7D31E050CB10081820D /* chongwugucheng.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7C81E050CB10081820D /* chongwugucheng.png */; };
 		A1E7D7D41E050CB10081820D /* tonghuaiguanyuemiao.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7C91E050CB10081820D /* tonghuaiguanyuemiao.png */; };
-		A1E7D7D51E050CB10081820D /* 景点详情清源山banner.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7CA1E050CB10081820D /* 景点详情清源山banner.png */; };
-		A1E7D7D61E050CB10081820D /* 景点详情清源山banner01.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7CB1E050CB10081820D /* 景点详情清源山banner01.png */; };
-		A1E7D7D71E050CB10081820D /* 景点详情清源山banner02.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7CC1E050CB10081820D /* 景点详情清源山banner02.png */; };
+		A1E7D7D51E050CB10081820D /* laojunyan0.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7CA1E050CB10081820D /* laojunyan0.png */; };
+		A1E7D7D61E050CB10081820D /* laojunyan1.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7CB1E050CB10081820D /* laojunyan1.png */; };
+		A1E7D7D71E050CB10081820D /* laojunyan2.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7CC1E050CB10081820D /* laojunyan2.png */; };
 		A1E7D7D81E050CB10081820D /* kaiyuansi.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7CD1E050CB10081820D /* kaiyuansi.png */; };
 		A1E7D7D91E050CB10081820D /* luoyangqiao.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7CE1E050CB10081820D /* luoyangqiao.png */; };
 		A1E7D7DA1E050CB10081820D /* niumuling.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7CF1E050CB10081820D /* niumuling.png */; };
@@ -234,6 +235,8 @@
 		A15D08BE1E080F61005BA458 /* QZInformationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZInformationView.xib; sourceTree = "<group>"; };
 		A15D08D01E080F83005BA458 /* QZHomeInformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZHomeInformationController.h; sourceTree = "<group>"; };
 		A15D08D11E080F83005BA458 /* QZHomeInformationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZHomeInformationController.m; sourceTree = "<group>"; };
+		A15D08D31E08D809005BA458 /* QZAttactionLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAttactionLocation.h; sourceTree = "<group>"; };
+		A15D08D41E08D809005BA458 /* QZAttactionLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAttactionLocation.m; sourceTree = "<group>"; };
 		A15D85B71E06C1F0003B4C50 /* travels0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = travels0.png; sourceTree = "<group>"; };
 		A15D85B81E06C1F0003B4C50 /* travels1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = travels1.png; sourceTree = "<group>"; };
 		A15D85B91E06C1F0003B4C50 /* travels2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = travels2.png; sourceTree = "<group>"; };
@@ -468,9 +471,9 @@
 		A1CD05941DFAFE74005606FB /* home4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home4.png; sourceTree = "<group>"; };
 		A1E7D7C81E050CB10081820D /* chongwugucheng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chongwugucheng.png; sourceTree = "<group>"; };
 		A1E7D7C91E050CB10081820D /* tonghuaiguanyuemiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tonghuaiguanyuemiao.png; sourceTree = "<group>"; };
-		A1E7D7CA1E050CB10081820D /* 景点详情清源山banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "景点详情清源山banner.png"; sourceTree = "<group>"; };
-		A1E7D7CB1E050CB10081820D /* 景点详情清源山banner01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "景点详情清源山banner01.png"; sourceTree = "<group>"; };
-		A1E7D7CC1E050CB10081820D /* 景点详情清源山banner02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "景点详情清源山banner02.png"; sourceTree = "<group>"; };
+		A1E7D7CA1E050CB10081820D /* laojunyan0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laojunyan0.png; sourceTree = "<group>"; };
+		A1E7D7CB1E050CB10081820D /* laojunyan1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laojunyan1.png; sourceTree = "<group>"; };
+		A1E7D7CC1E050CB10081820D /* laojunyan2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laojunyan2.png; sourceTree = "<group>"; };
 		A1E7D7CD1E050CB10081820D /* kaiyuansi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kaiyuansi.png; sourceTree = "<group>"; };
 		A1E7D7CE1E050CB10081820D /* luoyangqiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luoyangqiao.png; sourceTree = "<group>"; };
 		A1E7D7CF1E050CB10081820D /* niumuling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = niumuling.png; sourceTree = "<group>"; };
@@ -992,6 +995,8 @@
 				A1CD04581DFAACC4005606FB /* QZInformationModel.m */,
 				A1E7D7DE1E0511340081820D /* QZAttactionModel.h */,
 				A1E7D7DF1E0511340081820D /* QZAttactionModel.m */,
+				A15D08D31E08D809005BA458 /* QZAttactionLocation.h */,
+				A15D08D41E08D809005BA458 /* QZAttactionLocation.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1493,9 +1498,9 @@
 			children = (
 				A1E7D7C81E050CB10081820D /* chongwugucheng.png */,
 				A1E7D7C91E050CB10081820D /* tonghuaiguanyuemiao.png */,
-				A1E7D7CA1E050CB10081820D /* 景点详情清源山banner.png */,
-				A1E7D7CB1E050CB10081820D /* 景点详情清源山banner01.png */,
-				A1E7D7CC1E050CB10081820D /* 景点详情清源山banner02.png */,
+				A1E7D7CA1E050CB10081820D /* laojunyan0.png */,
+				A1E7D7CB1E050CB10081820D /* laojunyan1.png */,
+				A1E7D7CC1E050CB10081820D /* laojunyan2.png */,
 				A1E7D7CD1E050CB10081820D /* kaiyuansi.png */,
 				A1E7D7CE1E050CB10081820D /* luoyangqiao.png */,
 				A1E7D7CF1E050CB10081820D /* niumuling.png */,
@@ -1622,7 +1627,7 @@
 				A1CD05781DFAACD5005606FB /* yuanhe1916.png in Resources */,
 				A1CD05321DFAACC5005606FB /* QZMenuCell.xib in Resources */,
 				A1CD056E1DFAACD5005606FB /* HomeADV.plist in Resources */,
-				A1E7D7D61E050CB10081820D /* 景点详情清源山banner01.png in Resources */,
+				A1E7D7D61E050CB10081820D /* laojunyan1.png in Resources */,
 				A1CD05751DFAACD5005606FB /* qingyuanshan.png in Resources */,
 				A169DF4C1E003EE700969BB5 /* quannanfoguo.png in Resources */,
 				A1E7D7D81E050CB10081820D /* kaiyuansi.png in Resources */,
@@ -1641,7 +1646,7 @@
 				A1CD03EC1DFAAC5F005606FB /* Assets.xcassets in Resources */,
 				A169DF361E003A4E00969BB5 /* QZTravelsCell.xib in Resources */,
 				A1CD051A1DFAACC5005606FB /* Home.plist in Resources */,
-				A1E7D7D51E050CB10081820D /* 景点详情清源山banner.png in Resources */,
+				A1E7D7D51E050CB10081820D /* laojunyan0.png in Resources */,
 				A1E7D7DA1E050CB10081820D /* niumuling.png in Resources */,
 				A1C3E83E1E04E53F00D3B8B0 /* QZAttactionCell.xib in Resources */,
 				A1CD05151DFAACC5005606FB /* ExploreIcons.plist in Resources */,
@@ -1667,7 +1672,7 @@
 				A169DF4E1E003EE700969BB5 /* qingyuan.png in Resources */,
 				A169DF2C1E002F9B00969BB5 /* TravelsADV.plist in Resources */,
 				A169DF261E002BE000969BB5 /* jinchaiji.png in Resources */,
-				A1E7D7D71E050CB10081820D /* 景点详情清源山banner02.png in Resources */,
+				A1E7D7D71E050CB10081820D /* laojunyan2.png in Resources */,
 				A1E7D7D91E050CB10081820D /* luoyangqiao.png in Resources */,
 				A15D85C01E06C238003B4C50 /* citonghuakai.png in Resources */,
 				A1CD05961DFAFE74005606FB /* home1.png in Resources */,
@@ -1792,6 +1797,7 @@
 				A15D08CB1E080F61005BA458 /* QZHomeIconView.m in Sources */,
 				A1CD05041DFAACC5005606FB /* QZBaseCollectionViewController.m in Sources */,
 				A1C3E8241E04BEFA00D3B8B0 /* QZTravelsHotCell.m in Sources */,
+				A15D08D51E08D809005BA458 /* QZAttactionLocation.m in Sources */,
 				A1CD052B1DFAACC5005606FB /* SEENewSpecialView.m in Sources */,
 				A15D08C01E080F61005BA458 /* QZAttactionChooseView.m in Sources */,
 				A1CD053C1DFAACC5005606FB /* NSAttributedString+SEEQuick.m in Sources */,

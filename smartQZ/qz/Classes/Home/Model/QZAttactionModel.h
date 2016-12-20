@@ -25,6 +25,7 @@ typedef NS_ENUM(NSInteger,QZAttactionSortMode) {
 @property (nonatomic,copy) NSString *star;
 @property (nonatomic,copy) NSString *location;
 @property (nonatomic,copy) NSString *common;
+@property(nonatomic,strong)NSArray<NSString *> * images;
 
 - (NSAttributedString *)descAttributeString;
 

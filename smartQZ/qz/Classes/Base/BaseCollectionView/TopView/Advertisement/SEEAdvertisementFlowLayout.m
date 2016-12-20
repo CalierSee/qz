@@ -12,8 +12,9 @@
 @implementation SEEAdvertisementFlowLayout
 
 - (void)prepareLayout {
+    [super prepareLayout];
     //计算item大小
-    self.itemSize = CGSizeMake(self.collectionView.frame.size.width, self.collectionView.frame.size.height);
+    self.itemSize = CGSizeMake([UIScreen mainScreen].bounds.size.width, self.collectionView.frame.size.height);
     //设置UICollectionView
     self.collectionView.showsVerticalScrollIndicator = NO;
     self.collectionView.showsHorizontalScrollIndicator = NO;

@@ -20,6 +20,7 @@
 #import <YYModel.h>
 #import "QZBaseNavigationController.h"
 #import <POP.h>
+#import <MAMapKit/MAMapKit.h>
 #define USERTABLE @"t_users"
 #define USERTABLEID @"user_id"
 

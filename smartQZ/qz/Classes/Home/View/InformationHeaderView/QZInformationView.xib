@@ -409,6 +409,7 @@
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
+                <outlet property="advView" destination="Mzf-W5-JKo" id="ipC-yk-Y0F"/>
                 <outlet property="desc" destination="KVG-rR-AhT" id="eAH-vJ-ay0"/>
                 <outlet property="freeLabel" destination="7KO-xW-64R" id="x6w-b3-pTB"/>
                 <outlet property="prictLabel" destination="scg-Kt-Paj" id="Nsy-nj-WWd"/>

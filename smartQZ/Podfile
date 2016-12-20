@@ -13,4 +13,6 @@ pod 'Masonry'
 pod 'SVProgressHUD'
 pod 'pop'
 pod 'AMap3DMap', '~> 4.1.0'
+pod 'AMapNavi'  #导航 SDK
+pod 'AMapLocation'  #定位 SDK
 end

@@ -17,10 +17,22 @@
 		<string>清源山国家重点风景区是泉州十八景之一，也是国家级重点风景名胜区，由清源山、灵山圣墓三大片区组成，总面积六十二平方公里。清源山景区方圆有四十华里，主峰海拔498米，与泉州市山城相依，吸引了众多的海外游客。</string>
 		<key>icon</key>
 		<string>qingyuanshan</string>
+		<key>images</key>
+		<array>
+			<string>laojunyan0</string>
+			<string>laojunyan1</string>
+			<string>laojunyan2</string>
+		</array>
 		<key>name</key>
 		<string>清源山（AAAA）</string>
 	</dict>
 	<dict>
+		<key>images</key>
+		<array>
+			<string>kaiyuansi</string>
+			<string>laojunyan1</string>
+			<string>laojunyan2</string>
+		</array>
 		<key>common</key>
 		<string>851</string>
 		<key>old_price</key>
@@ -39,6 +51,12 @@
 		<string>开元寺</string>
 	</dict>
 	<dict>
+		<key>images</key>
+		<array>
+			<string>chongwugucheng</string>
+			<string>laojunyan1</string>
+			<string>laojunyan2</string>
+		</array>
 		<key>common</key>
 		<string>425</string>
 		<key>old_price</key>
@@ -57,6 +75,12 @@
 		<string>崇武古城</string>
 	</dict>
 	<dict>
+		<key>images</key>
+		<array>
+			<string>tonghuaiguanyuemiao</string>
+			<string>laojunyan1</string>
+			<string>laojunyan2</string>
+		</array>
 		<key>common</key>
 		<string>42</string>
 		<key>old_price</key>
@@ -75,6 +99,12 @@
 		<string>通淮关岳庙</string>
 	</dict>
 	<dict>
+		<key>images</key>
+		<array>
+			<string>luoyangqiao</string>
+			<string>laojunyan1</string>
+			<string>laojunyan2</string>
+		</array>
 		<key>common</key>
 		<string>175</string>
 		<key>old_price</key>
@@ -93,6 +123,12 @@
 		<string>洛阳桥</string>
 	</dict>
 	<dict>
+		<key>images</key>
+		<array>
+			<string>niumuling</string>
+			<string>laojunyan1</string>
+			<string>laojunyan2</string>
+		</array>
 		<key>common</key>
 		<string>76</string>
 		<key>old_price</key>
@@ -111,6 +147,12 @@
 		<string>牛姆林</string>
 	</dict>
 	<dict>
+		<key>images</key>
+		<array>
+			<string>qingjingsi</string>
+			<string>laojunyan1</string>
+			<string>laojunyan2</string>
+		</array>
 		<key>common</key>
 		<string>69</string>
 		<key>old_price</key>

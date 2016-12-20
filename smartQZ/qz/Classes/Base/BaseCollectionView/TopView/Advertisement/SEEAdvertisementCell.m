@@ -24,6 +24,7 @@
     else {
         url = [[NSBundle mainBundle]URLForResource:advertisement.image withExtension:nil];
     }
+    UIImage * image = [UIImage imageWithData:[NSData dataWithContentsOfURL:url]];
     _imageView.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:url]];
 }
 

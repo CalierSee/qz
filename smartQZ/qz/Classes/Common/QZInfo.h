@@ -41,4 +41,7 @@ typedef enum {
 #define QQUserAccountURL @"user/get_user_info"
 //weixin
 
+//高德地图
+#define GDAppKey @"b12721f61a22127eadcdce57a6ae4f39"
+
 #endif /* QZInfo_h */

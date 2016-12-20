@@ -10,6 +10,7 @@
 #import "QZMainViewController.h"
 #import "QZUserManager.h"
 #import "QZGuideView.h"
+#import <AMapFoundationKit/AMapFoundationKit.h>
 @interface AppDelegate ()
 @property(nonatomic,strong)NSArray<UIImage *> * images;
 @end
@@ -34,6 +35,9 @@
     //偏好设置
     [UIScrollView appearance].showsVerticalScrollIndicator = NO;
     [UIScrollView appearance].showsHorizontalScrollIndicator = NO;
+    
+    //地图授权
+    [AMapServices sharedServices].apiKey = GDAppKey;
     
     return YES;
 }
