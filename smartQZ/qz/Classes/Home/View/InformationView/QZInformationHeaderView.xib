@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="G6G-m0-udn">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fTw-lx-S5W">
+                    <rect key="frame" x="20" y="25" width="104.5" height="1"/>
+                    <color key="backgroundColor" red="0.94151180982589722" green="0.93019938468933105" blue="0.88418287038803101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="YoZ-We-KhV"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="游客评价" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIO-Nr-HPB">
+                    <rect key="frame" x="152.5" y="15.5" width="69.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.38034743070602417" green="0.38041785359382629" blue="0.38034301996231079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9yt-qe-IhG">
+                    <rect key="frame" x="250" y="25" width="105" height="1"/>
+                    <color key="backgroundColor" red="0.94151180980000004" green="0.93019938469999996" blue="0.88418287039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="DBx-Ae-FxR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="wIO-Nr-HPB" firstAttribute="centerY" secondItem="G6G-m0-udn" secondAttribute="centerY" id="Ka7-9w-Etw"/>
+                <constraint firstItem="wIO-Nr-HPB" firstAttribute="leading" secondItem="fTw-lx-S5W" secondAttribute="trailing" constant="28" id="Ruw-uV-YwA"/>
+                <constraint firstItem="9yt-qe-IhG" firstAttribute="leading" secondItem="wIO-Nr-HPB" secondAttribute="trailing" constant="28" id="a8J-8w-ZJk"/>
+                <constraint firstItem="fTw-lx-S5W" firstAttribute="leading" secondItem="G6G-m0-udn" secondAttribute="leading" constant="20" id="kG8-dC-cJt"/>
+                <constraint firstAttribute="trailing" secondItem="9yt-qe-IhG" secondAttribute="trailing" constant="20" id="kLp-qW-heI"/>
+                <constraint firstItem="wIO-Nr-HPB" firstAttribute="centerX" secondItem="G6G-m0-udn" secondAttribute="centerX" id="oSy-fh-t6y"/>
+                <constraint firstItem="fTw-lx-S5W" firstAttribute="centerY" secondItem="wIO-Nr-HPB" secondAttribute="centerY" id="wu4-d0-mrS"/>
+                <constraint firstItem="9yt-qe-IhG" firstAttribute="centerY" secondItem="wIO-Nr-HPB" secondAttribute="centerY" id="xDb-kp-3bA"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-34.5" y="-293.5"/>
+        </view>
+    </objects>
+</document>

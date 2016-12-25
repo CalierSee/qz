@@ -54,8 +54,8 @@
 }
 
 - (void)weatherStringWithCity:(NSString *)city complete:(void(^)(NSString *))complete {
+    _weatherCompleteBlock = complete;
     if (_weather == nil) {
-        _weatherCompleteBlock = complete;
         AMapWeatherSearchRequest *request = [[AMapWeatherSearchRequest alloc] init];
         request.city = _adcode;
         request.type = AMapWeatherTypeForecast; //AMapWeatherTypeLive为实时天气；AMapWeatherTypeForecase为预报天气
@@ -87,9 +87,16 @@
 - (void)onWeatherSearchDone:(AMapWeatherSearchRequest *)request response:(AMapWeatherSearchResponse *)response{
     AMapLocalDayWeatherForecast * cast = response.forecasts[0].casts[0];
     NSString * date = [cast.date componentsSeparatedByString:@"-"][1];
-    date = [date stringByAppendingString:[NSString stringWithFormat:@"月%@日  %@℃ - %@℃  %@",[cast.date componentsSeparatedByString:@"-"][2],cast.dayTemp,cast.nightTemp,cast.dayWeather]];
-    _weather = date;
-    _weatherCompleteBlock(date);
+    date = [date stringByAppendingString:[NSString stringWithFormat:@"月%@日",[cast.date componentsSeparatedByString:@"-"][2]]];
+    NSMutableString * stringM = [NSMutableString stringWithString:date];
+    if (cast.dayTemp.length) {
+        [stringM appendFormat:@"  %@℃ - %@℃  %@",cast.dayTemp,cast.nightTemp,cast.dayWeather];
+    }
+    else {
+        [stringM appendFormat:@"  %@℃  %@",cast.nightTemp,cast.dayWeather];
+    }
+    _weather = stringM.copy;
+    _weatherCompleteBlock(_weather);
 }
 
 - (void)AMapSearchRequest:(id)request didFailWithError:(NSError *)error

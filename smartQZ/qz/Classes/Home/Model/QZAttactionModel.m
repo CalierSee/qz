@@ -117,7 +117,7 @@
         [self.locationManager requestLocationWithReGeocode:NO completionBlock:^(CLLocation *location, AMapLocationReGeocode *regeocode, NSError *error) {
             if (error){
                 if (error.code == AMapLocationErrorLocateFailed){
-                    _userLocation = self.userLocation;
+                    [self loadUserLocation];
                     return;
                 }
             }
@@ -126,6 +126,10 @@
                 for (QZAttactionModel * mode in self.attactions) {
                     [mode.attactionLocation distanceWithUserLocation:_userLocation complete:^(double distance) {
                         mode.distance = distance;
+                        
+                        
+                        
+                        
                     }];
                 }
             });
@@ -139,5 +143,6 @@
     }
     return _attactionLocation;
 }
+
 
 @end

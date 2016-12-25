@@ -172,6 +172,7 @@
 #pragma mark UITextFieldDelegate
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     if(textField == self.userLabel){
+        [self.userLabel resignFirstResponder];
         [self.passLabel becomeFirstResponder];
     }
     else if(textField == self.passLabel){
@@ -179,6 +180,7 @@
             [self loginButtonClick:self.loginButton];
         }
         else{
+            [self.passLabel resignFirstResponder];
             [self.userLabel becomeFirstResponder];
         }
     }

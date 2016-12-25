@@ -52,7 +52,12 @@
     [_hotalView addGestureRecognizer:tap1];
     UITapGestureRecognizer * tap2 = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(locationGestureClick:)];
     [_locationView addGestureRecognizer:tap2];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.25 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [_collectionView selectItemAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:0] animated:NO scrollPosition:UICollectionViewScrollPositionNone];
+    });
 }
+
+
 
 //分享按钮
 - (IBAction)shareButtonClick:(UIButton *)sender {
@@ -74,8 +79,10 @@
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     QZDateCell * cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
+    [cell loadDateWithIndex:indexPath.row];
     return cell;
 }
+
 
 
 #pragma mark - private method

@@ -7,13 +7,16 @@
 //
 
 #import "QZDateCell.h"
-
+#import "QZDateManager.h"
 @interface QZDateCell ()
 
 @property(nonatomic,strong)UIView * customSelectedBackgroundView;
 @property (weak, nonatomic) IBOutlet UILabel *weekLabel;
 @property (weak, nonatomic) IBOutlet UILabel *dateLabel;
 @property (weak, nonatomic) IBOutlet UIView *background;
+
+/**  日期管理对象 */
+@property(nonatomic,strong)QZDateManager * manager;
 
 @end
 
@@ -28,6 +31,28 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
+}
+
+- (void)loadDateWithIndex:(NSInteger)index {
+    if (index == 0) {
+        _weekLabel.text = @"不限";
+        _dateLabel.text = @"日期";
+    }
+    else if (index == 1){
+        _dateLabel.text = @"今天";
+        NSDictionary * dict = [QZDateManager componentsForDayAfterToday:index - 1];
+        _weekLabel.text = dict[DateWeekdayKey];
+    }
+    else if (index == 2) {
+        _dateLabel.text = @"明天";
+        NSDictionary * dict = [QZDateManager componentsForDayAfterToday:index - 1];
+        _weekLabel.text = dict[DateWeekdayKey];
+    }
+    else {
+        NSDictionary * dict = [QZDateManager componentsForDayAfterToday:index - 1];
+        _dateLabel.text = [NSString stringWithFormat:@"%zd月%zd日",((NSNumber *)dict[DateMonthKey]).integerValue,((NSNumber *)dict[DateDayKey]).integerValue ];
+        _weekLabel.text = dict[DateWeekdayKey];
+    }
 }
 
 - (UIView *)customSelectedBackgroundView {
@@ -51,6 +76,14 @@
         _weekLabel.textColor = [UIColor see_colorWithHex:0x666666];
         _background.backgroundColor = [UIColor whiteColor];
     }
+}
+
+#pragma mark - getter setter
+- (QZDateManager *)manager {
+    if (_manager == nil) {
+        _manager = [QZDateManager defaultManager];
+    }
+    return _manager;
 }
 
 @end

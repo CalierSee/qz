@@ -41,6 +41,6 @@ typedef NS_ENUM(NSInteger,QZAttactionSortMode) {
 
 - (void)sortWithMode:(QZAttactionSortMode)mode;
 
-- (void)weatherStringWithComplete:(void(^)(NSString *))complete;
+- (void)weatherStringWithComplete:(void(^)(NSString *))complete;     
 
 @end

@@ -10,4 +10,6 @@
 
 @interface QZDateCell : UICollectionViewCell
 
+- (void)loadDateWithIndex:(NSInteger)index;
+
 @end

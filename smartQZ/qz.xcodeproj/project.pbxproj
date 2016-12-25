@@ -29,7 +29,6 @@
 		A15D08D71E08E358005BA458 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D08D61E08E358005BA458 /* OpenGLES.framework */; };
 		A15D08D91E08E370005BA458 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D08D81E08E370005BA458 /* libz.tbd */; };
 		A15D08DB1E08E381005BA458 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D08DA1E08E381005BA458 /* libstdc++.6.0.9.tbd */; };
-		A15D08DD1E08E38D005BA458 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D08DC1E08E38D005BA458 /* libc++.tbd */; };
 		A15D08DF1E08E3B5005BA458 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D08DE1E08E3B5005BA458 /* AMapSearchKit.framework */; };
 		A15D08E21E08F58D005BA458 /* HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D08E11E08F58D005BA458 /* HUD.m */; };
 		A15D08EC1E09288A005BA458 /* QZInformationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D08EA1E09288A005BA458 /* QZInformationCell.m */; };
@@ -66,8 +65,21 @@
 		A169DF521E003EE700969BB5 /* guanyuemiao.png in Resources */ = {isa = PBXBuildFile; fileRef = A169DF461E003EE700969BB5 /* guanyuemiao.png */; };
 		A169DF531E003EE700969BB5 /* minnan.png in Resources */ = {isa = PBXBuildFile; fileRef = A169DF471E003EE700969BB5 /* minnan.png */; };
 		A169DF541E003EE700969BB5 /* qingshanwan.png in Resources */ = {isa = PBXBuildFile; fileRef = A169DF481E003EE700969BB5 /* qingshanwan.png */; };
+		A16FB8C61E0E9C5500E824E4 /* kaiyuan.png in Resources */ = {isa = PBXBuildFile; fileRef = A16FB8C51E0E9C5500E824E4 /* kaiyuan.png */; };
+		A16FB8CA1E0E9DBF00E824E4 /* kaiyuansi.png in Resources */ = {isa = PBXBuildFile; fileRef = A16FB8C91E0E9DBF00E824E4 /* kaiyuansi.png */; };
+		A16FB8CC1E0EC12300E824E4 /* common.plist in Resources */ = {isa = PBXBuildFile; fileRef = A16FB8CB1E0EC12300E824E4 /* common.plist */; };
+		A16FB8D01E0EC2FB00E824E4 /* common0.png in Resources */ = {isa = PBXBuildFile; fileRef = A16FB8CE1E0EC2FB00E824E4 /* common0.png */; };
+		A16FB8D11E0EC2FB00E824E4 /* user0.png in Resources */ = {isa = PBXBuildFile; fileRef = A16FB8CF1E0EC2FB00E824E4 /* user0.png */; };
+		A16FB8D41E0EC33F00E824E4 /* QZCommonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A16FB8D31E0EC33F00E824E4 /* QZCommonModel.m */; };
+		A1A567C21E0FFCB500C7FD49 /* QZInformationCommonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A567C01E0FFCB500C7FD49 /* QZInformationCommonCell.xib */; };
+		A1A567C51E0FFCC400C7FD49 /* QZInformationFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A567C41E0FFCC400C7FD49 /* QZInformationFooter.m */; };
+		A1A567C71E0FFCCF00C7FD49 /* QZInformationFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A567C61E0FFCCF00C7FD49 /* QZInformationFooter.xib */; };
+		A1A567C91E0FFCD700C7FD49 /* QZInformationHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A567C81E0FFCD700C7FD49 /* QZInformationHeaderView.xib */; };
+		A1A567CC1E10032E00C7FD49 /* QZInformationCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A567CB1E10032E00C7FD49 /* QZInformationCommonCell.m */; };
 		A1AC4ED71E0960DC001F2BAF /* QZDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AC4ED51E0960DC001F2BAF /* QZDateCell.m */; };
 		A1AC4EDA1E0965CD001F2BAF /* QZDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1AC4ED91E0965CD001F2BAF /* QZDateCell.xib */; };
+		A1C3AB541E0CD6560095AA21 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C3AB531E0CD6560095AA21 /* libc++abi.tbd */; };
+		A1C3AB551E0CD6630095AA21 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D08DC1E08E38D005BA458 /* libc++.tbd */; };
 		A1C3E8241E04BEFA00D3B8B0 /* QZTravelsHotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C3E8221E04BEFA00D3B8B0 /* QZTravelsHotCell.m */; };
 		A1C3E8301E04D27300D3B8B0 /* QZTravelsHotCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C3E82F1E04D27300D3B8B0 /* QZTravelsHotCollectionViewController.m */; };
 		A1C3E8341E04D8CD00D3B8B0 /* QZAttractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C3E8321E04D8CD00D3B8B0 /* QZAttractionViewController.m */; };
@@ -161,7 +173,6 @@
 		A1CD055D1DFAACC5005606FB /* QZTravelsTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CD05001DFAACC5005606FB /* QZTravelsTopView.m */; };
 		A1CD055E1DFAACC5005606FB /* QZTravelsIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CD05031DFAACC5005606FB /* QZTravelsIconView.m */; };
 		A1CD056E1DFAACD5005606FB /* HomeADV.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1CD05601DFAACD5005606FB /* HomeADV.plist */; };
-		A1CD05741DFAACD5005606FB /* kaiyuansi.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CD05671DFAACD5005606FB /* kaiyuansi.png */; };
 		A1CD05751DFAACD5005606FB /* qingyuanshan.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CD05681DFAACD5005606FB /* qingyuanshan.png */; };
 		A1CD05761DFAACD5005606FB /* liukongjing.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CD05691DFAACD5005606FB /* liukongjing.png */; };
 		A1CD05771DFAACD5005606FB /* fengqiuhuang.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CD056A1DFAACD5005606FB /* fengqiuhuang.png */; };
@@ -173,22 +184,20 @@
 		A1CD05861DFAADF7005606FB /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CD05851DFAADF7005606FB /* libsqlite3.0.tbd */; };
 		A1CD05891DFAB02D005606FB /* special0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CD05871DFAB02D005606FB /* special0@2x.png */; };
 		A1CD058A1DFAB02D005606FB /* special1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CD05881DFAB02D005606FB /* special1@2x.png */; };
-		A1CD05951DFAFE74005606FB /* home0.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CD05901DFAFE74005606FB /* home0.png */; };
 		A1CD05961DFAFE74005606FB /* home1.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CD05911DFAFE74005606FB /* home1.png */; };
 		A1CD05971DFAFE74005606FB /* home2.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CD05921DFAFE74005606FB /* home2.png */; };
 		A1CD05981DFAFE74005606FB /* home3.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CD05931DFAFE74005606FB /* home3.png */; };
 		A1CD05991DFAFE74005606FB /* home4.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CD05941DFAFE74005606FB /* home4.png */; };
+		A1E1FCEC1E0AD175007C2FDB /* home0.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E1FCEB1E0AD175007C2FDB /* home0.png */; };
 		A1E7D7D31E050CB10081820D /* chongwugucheng.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7C81E050CB10081820D /* chongwugucheng.png */; };
 		A1E7D7D41E050CB10081820D /* tonghuaiguanyuemiao.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7C91E050CB10081820D /* tonghuaiguanyuemiao.png */; };
 		A1E7D7D51E050CB10081820D /* laojunyan0.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7CA1E050CB10081820D /* laojunyan0.png */; };
 		A1E7D7D61E050CB10081820D /* laojunyan1.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7CB1E050CB10081820D /* laojunyan1.png */; };
 		A1E7D7D71E050CB10081820D /* laojunyan2.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7CC1E050CB10081820D /* laojunyan2.png */; };
-		A1E7D7D81E050CB10081820D /* kaiyuansi.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7CD1E050CB10081820D /* kaiyuansi.png */; };
 		A1E7D7D91E050CB10081820D /* luoyangqiao.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7CE1E050CB10081820D /* luoyangqiao.png */; };
 		A1E7D7DA1E050CB10081820D /* niumuling.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7CF1E050CB10081820D /* niumuling.png */; };
 		A1E7D7DB1E050CB10081820D /* qingjingsi.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7D01E050CB10081820D /* qingjingsi.png */; };
 		A1E7D7DC1E050CB10081820D /* qingyuanshan.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7D11E050CB10081820D /* qingyuanshan.png */; };
-		A1E7D7DD1E050CB10081820D /* 清源山评价.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7D7D21E050CB10081820D /* 清源山评价.png */; };
 		A1E7D7E01E0511340081820D /* QZAttactionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E7D7DF1E0511340081820D /* QZAttactionModel.m */; };
 		F3648A021887B5AE00B7A02B /* libPods-qz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6609EA1700E2F4D49CB4C91F /* libPods-qz.a */; };
 /* End PBXBuildFile section */
@@ -238,7 +247,7 @@
 		A15D08B71E080F61005BA458 /* QZHomeIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZHomeIconView.m; sourceTree = "<group>"; };
 		A15D08B81E080F61005BA458 /* QZHomeTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZHomeTopView.h; sourceTree = "<group>"; };
 		A15D08B91E080F61005BA458 /* QZHomeTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZHomeTopView.m; sourceTree = "<group>"; };
-		A15D08BA1E080F61005BA458 /* icons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = icons.plist; sourceTree = "<group>"; };
+		A15D08BA1E080F61005BA458 /* icons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = icons.plist; path = ../icons.plist; sourceTree = "<group>"; };
 		A15D08BC1E080F61005BA458 /* QZInformationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZInformationView.h; sourceTree = "<group>"; };
 		A15D08BD1E080F61005BA458 /* QZInformationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZInformationView.m; sourceTree = "<group>"; };
 		A15D08D01E080F83005BA458 /* QZHomeInformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZHomeInformationController.h; sourceTree = "<group>"; };
@@ -291,9 +300,24 @@
 		A169DF461E003EE700969BB5 /* guanyuemiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guanyuemiao.png; sourceTree = "<group>"; };
 		A169DF471E003EE700969BB5 /* minnan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minnan.png; sourceTree = "<group>"; };
 		A169DF481E003EE700969BB5 /* qingshanwan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qingshanwan.png; sourceTree = "<group>"; };
+		A16FB8C51E0E9C5500E824E4 /* kaiyuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kaiyuan.png; sourceTree = "<group>"; };
+		A16FB8C91E0E9DBF00E824E4 /* kaiyuansi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kaiyuansi.png; sourceTree = "<group>"; };
+		A16FB8CB1E0EC12300E824E4 /* common.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = common.plist; sourceTree = "<group>"; };
+		A16FB8CE1E0EC2FB00E824E4 /* common0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common0.png; sourceTree = "<group>"; };
+		A16FB8CF1E0EC2FB00E824E4 /* user0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user0.png; sourceTree = "<group>"; };
+		A16FB8D21E0EC33F00E824E4 /* QZCommonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZCommonModel.h; sourceTree = "<group>"; };
+		A16FB8D31E0EC33F00E824E4 /* QZCommonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZCommonModel.m; sourceTree = "<group>"; };
+		A1A567C01E0FFCB500C7FD49 /* QZInformationCommonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZInformationCommonCell.xib; sourceTree = "<group>"; };
+		A1A567C31E0FFCC400C7FD49 /* QZInformationFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZInformationFooter.h; sourceTree = "<group>"; };
+		A1A567C41E0FFCC400C7FD49 /* QZInformationFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZInformationFooter.m; sourceTree = "<group>"; };
+		A1A567C61E0FFCCF00C7FD49 /* QZInformationFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZInformationFooter.xib; sourceTree = "<group>"; };
+		A1A567C81E0FFCD700C7FD49 /* QZInformationHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZInformationHeaderView.xib; sourceTree = "<group>"; };
+		A1A567CA1E10032E00C7FD49 /* QZInformationCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZInformationCommonCell.h; sourceTree = "<group>"; };
+		A1A567CB1E10032E00C7FD49 /* QZInformationCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZInformationCommonCell.m; sourceTree = "<group>"; };
 		A1AC4ED41E0960DC001F2BAF /* QZDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZDateCell.h; sourceTree = "<group>"; };
 		A1AC4ED51E0960DC001F2BAF /* QZDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZDateCell.m; sourceTree = "<group>"; };
 		A1AC4ED91E0965CD001F2BAF /* QZDateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZDateCell.xib; sourceTree = "<group>"; };
+		A1C3AB531E0CD6560095AA21 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
 		A1C3E8211E04BEFA00D3B8B0 /* QZTravelsHotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZTravelsHotCell.h; sourceTree = "<group>"; };
 		A1C3E8221E04BEFA00D3B8B0 /* QZTravelsHotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZTravelsHotCell.m; sourceTree = "<group>"; };
 		A1C3E82E1E04D27300D3B8B0 /* QZTravelsHotCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZTravelsHotCollectionViewController.h; sourceTree = "<group>"; };
@@ -471,7 +495,6 @@
 		A1CD05021DFAACC5005606FB /* QZTravelsIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZTravelsIconView.h; sourceTree = "<group>"; };
 		A1CD05031DFAACC5005606FB /* QZTravelsIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZTravelsIconView.m; sourceTree = "<group>"; };
 		A1CD05601DFAACD5005606FB /* HomeADV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeADV.plist; sourceTree = "<group>"; };
-		A1CD05671DFAACD5005606FB /* kaiyuansi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kaiyuansi.png; sourceTree = "<group>"; };
 		A1CD05681DFAACD5005606FB /* qingyuanshan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qingyuanshan.png; sourceTree = "<group>"; };
 		A1CD05691DFAACD5005606FB /* liukongjing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liukongjing.png; sourceTree = "<group>"; };
 		A1CD056A1DFAACD5005606FB /* fengqiuhuang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fengqiuhuang.png; sourceTree = "<group>"; };
@@ -485,17 +508,16 @@
 		A1CD05851DFAADF7005606FB /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		A1CD05871DFAB02D005606FB /* special0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "special0@2x.png"; sourceTree = "<group>"; };
 		A1CD05881DFAB02D005606FB /* special1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "special1@2x.png"; sourceTree = "<group>"; };
-		A1CD05901DFAFE74005606FB /* home0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home0.png; sourceTree = "<group>"; };
 		A1CD05911DFAFE74005606FB /* home1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home1.png; sourceTree = "<group>"; };
 		A1CD05921DFAFE74005606FB /* home2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home2.png; sourceTree = "<group>"; };
 		A1CD05931DFAFE74005606FB /* home3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home3.png; sourceTree = "<group>"; };
 		A1CD05941DFAFE74005606FB /* home4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home4.png; sourceTree = "<group>"; };
+		A1E1FCEB1E0AD175007C2FDB /* home0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home0.png; sourceTree = "<group>"; };
 		A1E7D7C81E050CB10081820D /* chongwugucheng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chongwugucheng.png; sourceTree = "<group>"; };
 		A1E7D7C91E050CB10081820D /* tonghuaiguanyuemiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tonghuaiguanyuemiao.png; sourceTree = "<group>"; };
 		A1E7D7CA1E050CB10081820D /* laojunyan0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laojunyan0.png; sourceTree = "<group>"; };
 		A1E7D7CB1E050CB10081820D /* laojunyan1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laojunyan1.png; sourceTree = "<group>"; };
 		A1E7D7CC1E050CB10081820D /* laojunyan2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laojunyan2.png; sourceTree = "<group>"; };
-		A1E7D7CD1E050CB10081820D /* kaiyuansi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kaiyuansi.png; sourceTree = "<group>"; };
 		A1E7D7CE1E050CB10081820D /* luoyangqiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luoyangqiao.png; sourceTree = "<group>"; };
 		A1E7D7CF1E050CB10081820D /* niumuling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = niumuling.png; sourceTree = "<group>"; };
 		A1E7D7D01E050CB10081820D /* qingjingsi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qingjingsi.png; sourceTree = "<group>"; };
@@ -511,7 +533,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A15D08DD1E08E38D005BA458 /* libc++.tbd in Frameworks */,
+				A1C3AB551E0CD6630095AA21 /* libc++.tbd in Frameworks */,
+				A1C3AB541E0CD6560095AA21 /* libc++abi.tbd in Frameworks */,
 				A15D08DF1E08E3B5005BA458 /* AMapSearchKit.framework in Frameworks */,
 				A15D08DB1E08E381005BA458 /* libstdc++.6.0.9.tbd in Frameworks */,
 				A15D08D91E08E370005BA458 /* libz.tbd in Frameworks */,
@@ -541,6 +564,7 @@
 		30462665B40CEFA11A92122D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A1C3AB531E0CD6560095AA21 /* libc++abi.tbd */,
 				A15D08DC1E08E38D005BA458 /* libc++.tbd */,
 				A15D08DA1E08E381005BA458 /* libstdc++.6.0.9.tbd */,
 				A15D08D81E08E370005BA458 /* libz.tbd */,
@@ -563,12 +587,12 @@
 		A15D089A1E080F61005BA458 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A1A567B51E0FFC5E00C7FD49 /* InformationView */,
 				A15D089B1E080F61005BA458 /* AttactionStarView */,
 				A15D08A41E080F61005BA458 /* HomeCellHeader */,
 				A15D08A81E080F61005BA458 /* HomeGuardCell */,
 				A15D08AC1E080F61005BA458 /* HomeLikeCell */,
 				A15D08B01E080F61005BA458 /* HomeTopView */,
-				A15D08BA1E080F61005BA458 /* icons.plist */,
 				A15D08BB1E080F61005BA458 /* InformationHeaderView */,
 			);
 			path = View;
@@ -633,6 +657,7 @@
 				A15D08B51E080F61005BA458 /* IconView */,
 				A15D08B81E080F61005BA458 /* QZHomeTopView.h */,
 				A15D08B91E080F61005BA458 /* QZHomeTopView.m */,
+				A15D08BA1E080F61005BA458 /* icons.plist */,
 			);
 			path = HomeTopView;
 			sourceTree = "<group>";
@@ -717,6 +742,29 @@
 			path = TravelPicture;
 			sourceTree = "<group>";
 		};
+		A16FB8CD1E0EC2FB00E824E4 /* AttactionCommonPicture */ = {
+			isa = PBXGroup;
+			children = (
+				A16FB8CE1E0EC2FB00E824E4 /* common0.png */,
+				A16FB8CF1E0EC2FB00E824E4 /* user0.png */,
+			);
+			path = AttactionCommonPicture;
+			sourceTree = "<group>";
+		};
+		A1A567B51E0FFC5E00C7FD49 /* InformationView */ = {
+			isa = PBXGroup;
+			children = (
+				A1A567C81E0FFCD700C7FD49 /* QZInformationHeaderView.xib */,
+				A1A567CA1E10032E00C7FD49 /* QZInformationCommonCell.h */,
+				A1A567CB1E10032E00C7FD49 /* QZInformationCommonCell.m */,
+				A1A567C01E0FFCB500C7FD49 /* QZInformationCommonCell.xib */,
+				A1A567C31E0FFCC400C7FD49 /* QZInformationFooter.h */,
+				A1A567C41E0FFCC400C7FD49 /* QZInformationFooter.m */,
+				A1A567C61E0FFCCF00C7FD49 /* QZInformationFooter.xib */,
+			);
+			path = InformationView;
+			sourceTree = "<group>";
+		};
 		A1CD03D31DFAAC5F005606FB = {
 			isa = PBXGroup;
 			children = (
@@ -754,6 +802,7 @@
 		A1CD03DF1DFAAC5F005606FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A16FB8CD1E0EC2FB00E824E4 /* AttactionCommonPicture */,
 				A1E7D7C71E050CA20081820D /* AttactionPicture */,
 				A169DF3C1E003EE700969BB5 /* TravelPicture */,
 				A169DF281E002EE000969BB5 /* TravelsADV */,
@@ -1006,6 +1055,7 @@
 				A1C3E8321E04D8CD00D3B8B0 /* QZAttractionViewController.m */,
 				A15D08D01E080F83005BA458 /* QZHomeInformationController.h */,
 				A15D08D11E080F83005BA458 /* QZHomeInformationController.m */,
+				A16FB8CB1E0EC12300E824E4 /* common.plist */,
 				A1C3E83A1E04E53F00D3B8B0 /* QZAttactionCell.h */,
 				A1C3E83B1E04E53F00D3B8B0 /* QZAttactionCell.m */,
 				A1C3E83C1E04E53F00D3B8B0 /* QZAttactionCell.xib */,
@@ -1027,6 +1077,8 @@
 		A1CD04541DFAACC4005606FB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A16FB8D21E0EC33F00E824E4 /* QZCommonModel.h */,
+				A16FB8D31E0EC33F00E824E4 /* QZCommonModel.m */,
 				A1CD04551DFAACC4005606FB /* QZHomeModel.h */,
 				A1CD04561DFAACC4005606FB /* QZHomeModel.m */,
 				A1CD04571DFAACC4005606FB /* QZInformationModel.h */,
@@ -1505,7 +1557,7 @@
 		A1CD055F1DFAACD5005606FB /* HomeADV */ = {
 			isa = PBXGroup;
 			children = (
-				A1CD05901DFAFE74005606FB /* home0.png */,
+				A1E1FCEB1E0AD175007C2FDB /* home0.png */,
 				A1CD05911DFAFE74005606FB /* home1.png */,
 				A1CD05921DFAFE74005606FB /* home2.png */,
 				A1CD05931DFAFE74005606FB /* home3.png */,
@@ -1518,9 +1570,9 @@
 		A1CD05661DFAACD5005606FB /* HomePicture */ = {
 			isa = PBXGroup;
 			children = (
+				A16FB8C51E0E9C5500E824E4 /* kaiyuan.png */,
 				A169DF241E002BE000969BB5 /* jinchaiji.png */,
 				A169DF251E002BE000969BB5 /* huoyanshan.png */,
-				A1CD05671DFAACD5005606FB /* kaiyuansi.png */,
 				A1CD05681DFAACD5005606FB /* qingyuanshan.png */,
 				A1CD05691DFAACD5005606FB /* liukongjing.png */,
 				A1CD056A1DFAACD5005606FB /* fengqiuhuang.png */,
@@ -1534,12 +1586,12 @@
 		A1E7D7C71E050CA20081820D /* AttactionPicture */ = {
 			isa = PBXGroup;
 			children = (
+				A16FB8C91E0E9DBF00E824E4 /* kaiyuansi.png */,
 				A1E7D7C81E050CB10081820D /* chongwugucheng.png */,
 				A1E7D7C91E050CB10081820D /* tonghuaiguanyuemiao.png */,
 				A1E7D7CA1E050CB10081820D /* laojunyan0.png */,
 				A1E7D7CB1E050CB10081820D /* laojunyan1.png */,
 				A1E7D7CC1E050CB10081820D /* laojunyan2.png */,
-				A1E7D7CD1E050CB10081820D /* kaiyuansi.png */,
 				A1E7D7CE1E050CB10081820D /* luoyangqiao.png */,
 				A1E7D7CF1E050CB10081820D /* niumuling.png */,
 				A1E7D7D01E050CB10081820D /* qingjingsi.png */,
@@ -1614,11 +1666,13 @@
 		A1CD03D41DFAAC5F005606FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = QZ;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "景彦铭";
 				TargetAttributes = {
 					A1CD03DB1DFAAC5F005606FB = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 33K6Z54D59;
 						ProvisioningStyle = Automatic;
 					};
 					A1CD03F41DFAAC5F005606FB = {
@@ -1659,7 +1713,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1CD05051DFAACC5005606FB /* QZCollectionViewFooter.xib in Resources */,
-				A1CD05951DFAFE74005606FB /* home0.png in Resources */,
 				A1AC4EDA1E0965CD001F2BAF /* QZDateCell.xib in Resources */,
 				A15D85CA1E06C70E003B4C50 /* yueding.png in Resources */,
 				A1E7D7D31E050CB10081820D /* chongwugucheng.png in Resources */,
@@ -1669,7 +1722,6 @@
 				A1E7D7D61E050CB10081820D /* laojunyan1.png in Resources */,
 				A1CD05751DFAACD5005606FB /* qingyuanshan.png in Resources */,
 				A169DF4C1E003EE700969BB5 /* quannanfoguo.png in Resources */,
-				A1E7D7D81E050CB10081820D /* kaiyuansi.png in Resources */,
 				A15D85BC1E06C1F0003B4C50 /* travels2.png in Resources */,
 				A15D85D01E06D2BB003B4C50 /* QZTravelsEditView.xib in Resources */,
 				A15D08CD1E080F61005BA458 /* icons.plist in Resources */,
@@ -1687,21 +1739,26 @@
 				A1E7D7D51E050CB10081820D /* laojunyan0.png in Resources */,
 				A1E7D7DA1E050CB10081820D /* niumuling.png in Resources */,
 				A1C3E83E1E04E53F00D3B8B0 /* QZAttactionCell.xib in Resources */,
+				A16FB8D11E0EC2FB00E824E4 /* user0.png in Resources */,
 				A1CD05151DFAACC5005606FB /* ExploreIcons.plist in Resources */,
 				A1CD05761DFAACD5005606FB /* liukongjing.png in Resources */,
 				A15D85BA1E06C1F0003B4C50 /* travels0.png in Resources */,
+				A16FB8C61E0E9C5500E824E4 /* kaiyuan.png in Resources */,
+				A16FB8CA1E0E9DBF00E824E4 /* kaiyuansi.png in Resources */,
 				A15D08C61E080F61005BA458 /* QZGuardCell.xib in Resources */,
 				A1CD052D1DFAACC5005606FB /* QZEditViewController.storyboard in Resources */,
 				A1E7D7D41E050CB10081820D /* tonghuaiguanyuemiao.png in Resources */,
 				A1CD05981DFAFE74005606FB /* home3.png in Resources */,
 				A169DF521E003EE700969BB5 /* guanyuemiao.png in Resources */,
 				A1CD055B1DFAACC5005606FB /* QZTravelsHeader.xib in Resources */,
+				A1A567C21E0FFCB500C7FD49 /* QZInformationCommonCell.xib in Resources */,
 				A15D85C21E06C238003B4C50 /* fukanquanzhou.png in Resources */,
 				A1CD05971DFAFE74005606FB /* home2.png in Resources */,
 				A15D08C11E080F61005BA458 /* QZAttactionChooseView.xib in Resources */,
 				A1CD05771DFAACD5005606FB /* fengqiuhuang.png in Resources */,
 				A169DF541E003EE700969BB5 /* qingshanwan.png in Resources */,
 				A169DF4D1E003EE700969BB5 /* tumenshan.png in Resources */,
+				A1E1FCEC1E0AD175007C2FDB /* home0.png in Resources */,
 				A15D08ED1E09288A005BA458 /* QZInformationCell.xib in Resources */,
 				A1C3E8371E04D94000D3B8B0 /* Attaction.plist in Resources */,
 				A15D85C91E06C70E003B4C50 /* nvzidechuanqi.png in Resources */,
@@ -1713,14 +1770,16 @@
 				A169DF261E002BE000969BB5 /* jinchaiji.png in Resources */,
 				A1E7D7D71E050CB10081820D /* laojunyan2.png in Resources */,
 				A1E7D7D91E050CB10081820D /* luoyangqiao.png in Resources */,
+				A16FB8CC1E0EC12300E824E4 /* common.plist in Resources */,
 				A15D85C01E06C238003B4C50 /* citonghuakai.png in Resources */,
 				A1CD05961DFAFE74005606FB /* home1.png in Resources */,
 				A15D08C31E080F61005BA458 /* HomeSectionHeader.xib in Resources */,
 				A169DF271E002BE000969BB5 /* huoyanshan.png in Resources */,
 				A1CD05991DFAFE74005606FB /* home4.png in Resources */,
 				A1E7D7DC1E050CB10081820D /* qingyuanshan.png in Resources */,
+				A1A567C71E0FFCCF00C7FD49 /* QZInformationFooter.xib in Resources */,
 				A169DF501E003EE700969BB5 /* caishi.png in Resources */,
-				A1CD05741DFAACD5005606FB /* kaiyuansi.png in Resources */,
+				A16FB8D01E0EC2FB00E824E4 /* common0.png in Resources */,
 				A1CD054B1DFAACC5005606FB /* .Ulysses-Group.plist in Resources */,
 				A1CD05891DFAB02D005606FB /* special0@2x.png in Resources */,
 				A1CD057A1DFAACD5005606FB /* lingshow.png in Resources */,
@@ -1729,12 +1788,12 @@
 				A169DF4F1E003EE700969BB5 /* licheng.png in Resources */,
 				A169DF491E003EE700969BB5 /* meishi.png in Resources */,
 				A169DF531E003EE700969BB5 /* minnan.png in Resources */,
-				A1E7D7DD1E050CB10081820D /* 清源山评价.png in Resources */,
 				A169DF2E1E00334300969BB5 /* Travels.plist in Resources */,
 				A15D85C81E06C70E003B4C50 /* dongxita.png in Resources */,
 				A15D08C81E080F61005BA458 /* QZLikeCell.xib in Resources */,
 				A15D08CA1E080F61005BA458 /* QZHomeFunctionView.xib in Resources */,
 				A1CD058A1DFAB02D005606FB /* special1@2x.png in Resources */,
+				A1A567C91E0FFCD700C7FD49 /* QZInformationHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1866,7 +1925,9 @@
 				A1C3E8341E04D8CD00D3B8B0 /* QZAttractionViewController.m in Sources */,
 				A1CD050C1DFAACC5005606FB /* QZBaseTopView.m in Sources */,
 				A1CD05131DFAACC5005606FB /* QZExploreViewController.m in Sources */,
+				A1A567CC1E10032E00C7FD49 /* QZInformationCommonCell.m in Sources */,
 				A1CD055D1DFAACC5005606FB /* QZTravelsTopView.m in Sources */,
+				A16FB8D41E0EC33F00E824E4 /* QZCommonModel.m in Sources */,
 				A1CD05551DFAACC5005606FB /* QZBaseUser.m in Sources */,
 				A169DF351E003A4E00969BB5 /* QZTravelsCell.m in Sources */,
 				A1CD052A1DFAACC5005606FB /* QZGuideView.m in Sources */,
@@ -1898,6 +1959,7 @@
 				A15D08D21E080F83005BA458 /* QZHomeInformationController.m in Sources */,
 				A1CD05161DFAACC5005606FB /* QZExploreButton.m in Sources */,
 				A1CD05541DFAACC5005606FB /* QZQQUserInfo.m in Sources */,
+				A1A567C51E0FFCC400C7FD49 /* QZInformationFooter.m in Sources */,
 				A1CD05521DFAACC5005606FB /* QZSqliteManager.m in Sources */,
 				A1CD05271DFAACC5005606FB /* QZMainViewController.m in Sources */,
 				A1CD05561DFAACC5005606FB /* QZBaseUserInfo.m in Sources */,
@@ -2033,12 +2095,14 @@
 			baseConfigurationReference = CD2B65CE238008A85A07F808 /* Pods-qz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33K6Z54D59;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/qz",
 				);
 				GCC_PREFIX_HEADER = qz/qztourist.pch;
 				INFOPLIST_FILE = qz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.see.qz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2050,12 +2114,14 @@
 			baseConfigurationReference = 497D9FC74C8EE37EF069E82D /* Pods-qz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33K6Z54D59;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/qz",
 				);
 				GCC_PREFIX_HEADER = qz/qztourist.pch;
 				INFOPLIST_FILE = qz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.see.qz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
