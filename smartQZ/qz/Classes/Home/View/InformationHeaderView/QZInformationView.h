@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "QZAttactionModel.h"
 
+#define NeedPushMapViewNotification @"NeedPushMapViewNotification"
+
 typedef NS_ENUM(NSInteger,ShareType) {
     ShareTypeQQ,
     ShareTypeWX,

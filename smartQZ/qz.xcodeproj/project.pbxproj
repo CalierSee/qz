@@ -78,6 +78,8 @@
 		A1A567CC1E10032E00C7FD49 /* QZInformationCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A567CB1E10032E00C7FD49 /* QZInformationCommonCell.m */; };
 		A1A567D01E10C0D900C7FD49 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A567CF1E10C0D900C7FD49 /* UIImage+ImageEffects.m */; };
 		A1A567D31E10D57D00C7FD49 /* QZShareBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A567D21E10D57D00C7FD49 /* QZShareBackgroundView.m */; };
+		A1A567D61E114FB200C7FD49 /* SEECircleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A567D51E114FB200C7FD49 /* SEECircleTransition.m */; };
+		A1A567DA1E1152AE00C7FD49 /* QZMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A567D81E1152AE00C7FD49 /* QZMapViewController.m */; };
 		A1AC4ED71E0960DC001F2BAF /* QZDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AC4ED51E0960DC001F2BAF /* QZDateCell.m */; };
 		A1AC4EDA1E0965CD001F2BAF /* QZDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1AC4ED91E0965CD001F2BAF /* QZDateCell.xib */; };
 		A1C3AB541E0CD6560095AA21 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C3AB531E0CD6560095AA21 /* libc++abi.tbd */; };
@@ -320,6 +322,10 @@
 		A1A567CF1E10C0D900C7FD49 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		A1A567D11E10D57D00C7FD49 /* QZShareBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZShareBackgroundView.h; sourceTree = "<group>"; };
 		A1A567D21E10D57D00C7FD49 /* QZShareBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZShareBackgroundView.m; sourceTree = "<group>"; };
+		A1A567D41E114FB200C7FD49 /* SEECircleTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECircleTransition.h; sourceTree = "<group>"; };
+		A1A567D51E114FB200C7FD49 /* SEECircleTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECircleTransition.m; sourceTree = "<group>"; };
+		A1A567D71E1152AE00C7FD49 /* QZMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZMapViewController.h; sourceTree = "<group>"; };
+		A1A567D81E1152AE00C7FD49 /* QZMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZMapViewController.m; sourceTree = "<group>"; };
 		A1AC4ED41E0960DC001F2BAF /* QZDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZDateCell.h; sourceTree = "<group>"; };
 		A1AC4ED51E0960DC001F2BAF /* QZDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZDateCell.m; sourceTree = "<group>"; };
 		A1AC4ED91E0965CD001F2BAF /* QZDateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZDateCell.xib; sourceTree = "<group>"; };
@@ -1077,6 +1083,8 @@
 				A1C3E83B1E04E53F00D3B8B0 /* QZAttactionCell.m */,
 				A1C3E83C1E04E53F00D3B8B0 /* QZAttactionCell.xib */,
 				A1C3E8361E04D94000D3B8B0 /* Attaction.plist */,
+				A1A567D71E1152AE00C7FD49 /* QZMapViewController.h */,
+				A1A567D81E1152AE00C7FD49 /* QZMapViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1279,6 +1287,8 @@
 		A1CD04961DFAACC4005606FB /* AdditionalClass */ = {
 			isa = PBXGroup;
 			children = (
+				A1A567D41E114FB200C7FD49 /* SEECircleTransition.h */,
+				A1A567D51E114FB200C7FD49 /* SEECircleTransition.m */,
 				A1CD04971DFAACC4005606FB /* LXDScanCodeController */,
 				A1CD049C1DFAACC4005606FB /* SEEAnimator.h */,
 				A1CD049D1DFAACC4005606FB /* SEEAnimator.m */,
@@ -1926,6 +1936,7 @@
 				A1CD05071DFAACC5005606FB /* SEEAdvertisementCell.m in Sources */,
 				A1CD05291DFAACC5005606FB /* QZGuideViewController.m in Sources */,
 				A1CD050B1DFAACC5005606FB /* QZBaseIconView.m in Sources */,
+				A1A567D61E114FB200C7FD49 /* SEECircleTransition.m in Sources */,
 				A1CD05471DFAACC5005606FB /* UITableView+SEEQuick.m in Sources */,
 				A1CD05101DFAACC5005606FB /* QZLoginViewController.m in Sources */,
 				A1CD05331DFAACC5005606FB /* QZUserInfoView.m in Sources */,
@@ -1951,6 +1962,7 @@
 				A1CD05551DFAACC5005606FB /* QZBaseUser.m in Sources */,
 				A169DF351E003A4E00969BB5 /* QZTravelsCell.m in Sources */,
 				A1CD052A1DFAACC5005606FB /* QZGuideView.m in Sources */,
+				A1A567DA1E1152AE00C7FD49 /* QZMapViewController.m in Sources */,
 				A1CD050F1DFAACC5005606FB /* QZBaseViewController.m in Sources */,
 				A1CD051B1DFAACC5005606FB /* QZHomeViewController.m in Sources */,
 				A1CD05311DFAACC5005606FB /* QZMenuCell.m in Sources */,

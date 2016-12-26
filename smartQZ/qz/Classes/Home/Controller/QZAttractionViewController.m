@@ -121,6 +121,7 @@ static NSString * cellID = @"cell";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     QZHomeInformationController * vc = [[QZHomeInformationController alloc]init];
     vc.attaction = self.attaction.attactions[indexPath.row];
+    vc.title = vc.attaction.name;
     [self.navigationController pushViewController:vc animated:YES];
 }
 

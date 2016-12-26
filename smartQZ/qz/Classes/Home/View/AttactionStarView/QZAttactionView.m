@@ -24,11 +24,11 @@
 
 - (void)drawRect:(CGRect)rect {
     CGFloat magin = 1;
-    CGRect baseRect = CGRectMake(0, 0, 15, 15);
+    CGRect baseRect = CGRectMake(0, -2, 19, 19);
     
     NSInteger index = 0;
     for (UIImage * image in _images) {
-        [image drawInRect:CGRectOffset(baseRect, (magin + baseRect.size.width) * index, 0) blendMode:0 alpha:1];
+        [image drawInRect:CGRectOffset(baseRect, (magin + 15) * index, 0)];
         index++;
     }
 }

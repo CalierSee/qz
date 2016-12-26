@@ -36,6 +36,7 @@
 @property(nonatomic,weak)IBOutlet UICollectionViewFlowLayout *layout;
 
 @property(nonatomic,weak)IBOutlet UIView *locationView;
+@property(nonatomic,weak)IBOutlet UIImageView *locationIcon;
 
 @property(nonatomic,weak)IBOutlet UIView *hotalView;
 
@@ -180,6 +181,8 @@
 }
 //定位按钮
 - (void)locationGestureClick:(UITapGestureRecognizer *)sender {
+    CGRect rect = [self.locationView convertRect:self.locationIcon.frame toView:self.window];
+    [[NSNotificationCenter defaultCenter] postNotificationName:NeedPushMapViewNotification object:nil userInfo:@{@"rect": NSStringFromCGRect(rect)}];
 }
 //套餐说明按钮
 - (IBAction)directionsButtonClick:(UIButton *)sender {

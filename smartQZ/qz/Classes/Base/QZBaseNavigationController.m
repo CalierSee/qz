@@ -77,6 +77,18 @@
     return [super popViewControllerAnimated:animated];
 }
 
+- (void)setNavigationBarHidden:(BOOL)hidden animated:(BOOL)animated {
+    if (animated) {
+        [UIView animateWithDuration:0.25 animations:^{
+            self.see_navigationItem.transform = hidden? CGAffineTransformMakeTranslation(0, -44) : CGAffineTransformIdentity;
+        }];
+    }
+    else {
+        self.see_navigationItem.transform = hidden? CGAffineTransformMakeTranslation(0, -44) : CGAffineTransformIdentity;
+    }
+    [super setNavigationBarHidden:hidden animated:animated];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

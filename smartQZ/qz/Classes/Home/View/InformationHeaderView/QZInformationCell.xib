@@ -453,6 +453,7 @@
                             <outlet property="hotalView" destination="4ej-ec-qXQ" id="djR-rO-F4s"/>
                             <outlet property="layout" destination="eTD-RD-WcE" id="C19-c2-Ljc"/>
                             <outlet property="location" destination="7fG-MC-0DG" id="zub-1F-zLH"/>
+                            <outlet property="locationIcon" destination="5le-Pe-Mm9" id="8Zo-9a-VZU"/>
                             <outlet property="locationView" destination="ktU-vl-zB5" id="AaX-gM-K5z"/>
                             <outlet property="order" destination="gKh-AJ-iF6" id="aP9-9S-GI4"/>
                             <outlet property="prictLabel" destination="IxI-Xu-JvU" id="Nlo-gi-uGU"/>

@@ -13,4 +13,5 @@
     #import "SEESqliteManager.h"
     #import "SEEPullDownRefreshControl.h"
     #import "SEEHTTPManager.h"
+    #import "SEECircleTransition.h"
 #endif /* SEEQuickAdditional_h */
