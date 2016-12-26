@@ -76,6 +76,8 @@
 		A1A567C71E0FFCCF00C7FD49 /* QZInformationFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A567C61E0FFCCF00C7FD49 /* QZInformationFooter.xib */; };
 		A1A567C91E0FFCD700C7FD49 /* QZInformationHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A567C81E0FFCD700C7FD49 /* QZInformationHeaderView.xib */; };
 		A1A567CC1E10032E00C7FD49 /* QZInformationCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A567CB1E10032E00C7FD49 /* QZInformationCommonCell.m */; };
+		A1A567D01E10C0D900C7FD49 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A567CF1E10C0D900C7FD49 /* UIImage+ImageEffects.m */; };
+		A1A567D31E10D57D00C7FD49 /* QZShareBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A567D21E10D57D00C7FD49 /* QZShareBackgroundView.m */; };
 		A1AC4ED71E0960DC001F2BAF /* QZDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AC4ED51E0960DC001F2BAF /* QZDateCell.m */; };
 		A1AC4EDA1E0965CD001F2BAF /* QZDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1AC4ED91E0965CD001F2BAF /* QZDateCell.xib */; };
 		A1C3AB541E0CD6560095AA21 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C3AB531E0CD6560095AA21 /* libc++abi.tbd */; };
@@ -314,6 +316,10 @@
 		A1A567C81E0FFCD700C7FD49 /* QZInformationHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZInformationHeaderView.xib; sourceTree = "<group>"; };
 		A1A567CA1E10032E00C7FD49 /* QZInformationCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZInformationCommonCell.h; sourceTree = "<group>"; };
 		A1A567CB1E10032E00C7FD49 /* QZInformationCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZInformationCommonCell.m; sourceTree = "<group>"; };
+		A1A567CE1E10C0D900C7FD49 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		A1A567CF1E10C0D900C7FD49 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		A1A567D11E10D57D00C7FD49 /* QZShareBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZShareBackgroundView.h; sourceTree = "<group>"; };
+		A1A567D21E10D57D00C7FD49 /* QZShareBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZShareBackgroundView.m; sourceTree = "<group>"; };
 		A1AC4ED41E0960DC001F2BAF /* QZDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZDateCell.h; sourceTree = "<group>"; };
 		A1AC4ED51E0960DC001F2BAF /* QZDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZDateCell.m; sourceTree = "<group>"; };
 		A1AC4ED91E0965CD001F2BAF /* QZDateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZDateCell.xib; sourceTree = "<group>"; };
@@ -692,6 +698,8 @@
 				A1AC4ED41E0960DC001F2BAF /* QZDateCell.h */,
 				A1AC4ED51E0960DC001F2BAF /* QZDateCell.m */,
 				A1AC4ED91E0965CD001F2BAF /* QZDateCell.xib */,
+				A1A567D11E10D57D00C7FD49 /* QZShareBackgroundView.h */,
+				A1A567D21E10D57D00C7FD49 /* QZShareBackgroundView.m */,
 			);
 			path = InformationHeaderView;
 			sourceTree = "<group>";
@@ -763,6 +771,15 @@
 				A1A567C61E0FFCCF00C7FD49 /* QZInformationFooter.xib */,
 			);
 			path = InformationView;
+			sourceTree = "<group>";
+		};
+		A1A567CD1E10C0D900C7FD49 /* UIImage+ImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				A1A567CE1E10C0D900C7FD49 /* UIImage+ImageEffects.h */,
+				A1A567CF1E10C0D900C7FD49 /* UIImage+ImageEffects.m */,
+			);
+			path = "UIImage+ImageEffects";
 			sourceTree = "<group>";
 		};
 		A1CD03D31DFAAC5F005606FB = {
@@ -841,14 +858,14 @@
 			isa = PBXGroup;
 			children = (
 				A1CD04131DFAACC4005606FB /* Base */,
-				A1CD04301DFAACC4005606FB /* Common */,
-				A1CD04381DFAACC4005606FB /* Explore */,
-				A1CD044E1DFAACC4005606FB /* Home */,
-				A1CD046D1DFAACC4005606FB /* Main */,
-				A1CD047F1DFAACC4005606FB /* Mine */,
 				A1CD04951DFAACC4005606FB /* SEEQuickTools */,
+				A1CD04301DFAACC4005606FB /* Common */,
 				A1CD04CD1DFAACC4005606FB /* Service */,
+				A1CD046D1DFAACC4005606FB /* Main */,
+				A1CD044E1DFAACC4005606FB /* Home */,
+				A1CD04381DFAACC4005606FB /* Explore */,
 				A1CD04F31DFAACC5005606FB /* Travels */,
+				A1CD047F1DFAACC4005606FB /* Mine */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1251,6 +1268,7 @@
 		A1CD04951DFAACC4005606FB /* SEEQuickTools */ = {
 			isa = PBXGroup;
 			children = (
+				A1A567CD1E10C0D900C7FD49 /* UIImage+ImageEffects */,
 				A1CD04961DFAACC4005606FB /* AdditionalClass */,
 				A1CD04A71DFAACC4005606FB /* Cagetory */,
 				A1CD04C91DFAACC4005606FB /* Log */,
@@ -1914,8 +1932,10 @@
 				A1CD05481DFAACC5005606FB /* UIViewController+SEEQuick.m in Sources */,
 				A1CD053B1DFAACC5005606FB /* NSArray+SEEQuick.m in Sources */,
 				A1CD05351DFAACC5005606FB /* LXDScanView.m in Sources */,
+				A1A567D31E10D57D00C7FD49 /* QZShareBackgroundView.m in Sources */,
 				A1CD05571DFAACC5005606FB /* QZUserManager.m in Sources */,
 				A1CD05421DFAACC5005606FB /* UIImage+SEEQuick.m in Sources */,
+				A1A567D01E10C0D900C7FD49 /* UIImage+ImageEffects.m in Sources */,
 				A1CD05061DFAACC5005606FB /* SEEAdvertisement.m in Sources */,
 				A1E7D7E01E0511340081820D /* QZAttactionModel.m in Sources */,
 				A1CD05091DFAACC5005606FB /* SEEAdvertisementView.m in Sources */,

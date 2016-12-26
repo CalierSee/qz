@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "QZAttactionModel.h"
+
+typedef NS_ENUM(NSInteger,ShareType) {
+    ShareTypeQQ,
+    ShareTypeWX,
+    ShareTypeSina
+};
+
+
 @interface QZInformationView : UIView
 
 - (void)attaction:(QZAttactionModel *)attaction;

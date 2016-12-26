@@ -26,4 +26,9 @@
 + (instancetype)see_blankImageWithSize:(CGSize)size;
 
 + (instancetype)see_imageWithSize:(CGSize)size color:(UIColor *)color;
+
+//获得屏幕截图
++ (instancetype)see_screenShot;
+
+
 @end

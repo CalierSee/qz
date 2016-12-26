@@ -61,4 +61,20 @@
     return image;
 }
 
++ (instancetype)see_screenShot {
+    //开启屏幕大小的上下文
+    UIGraphicsBeginImageContextWithOptions([UIScreen mainScreen].bounds.size, NO, [UIScreen mainScreen].scale);
+    //将window上的内容绘制到上下文
+    [[UIApplication sharedApplication].keyWindow drawViewHierarchyInRect:[UIApplication sharedApplication].keyWindow.bounds afterScreenUpdates:NO];
+    
+    //获取图片
+    
+    UIImage * image = UIGraphicsGetImageFromCurrentImageContext();
+    
+    //关闭上下文
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
+
 @end
